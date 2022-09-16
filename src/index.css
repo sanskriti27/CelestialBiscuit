@@ -1,0 +1,76 @@
+:root{
+  --background: #1C1C1C;
+  --theme: #ECB440;
+  --title: #FFFFFF;
+  --primary: #E3E3E3;
+  --secondary: #B3B3B3;
+  --tertiary1: #848484;
+  --tertiary2: #606060;
+  --partition: #393939;
+}
+
+body {
+  background-color: var(--background);
+  font-family: Equinox;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav{
+  margin: 1.5% auto ;
+
+  width: 70%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.navbox{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  border: 1px solid var(--secondary);
+  padding: 1.5% 2%;
+  border-radius: 3em;
+  font-size: 12px;
+}
+
+.link{
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* .link:{
+  background-color: var(--primary);
+} */
+.logo{
+  width: 15%;
+}
+
+.icon{
+  color: var(--primary);
+  font-size: 24px;
+}
+
+.NavSocials{
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavSocials a{
+  text-decoration: none;
+}
+
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 30px;
+  background-color: var(--theme);
+}
