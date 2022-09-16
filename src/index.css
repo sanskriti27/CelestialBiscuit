@@ -140,6 +140,7 @@ code {
 }
 
 .Main-2 .text{
+  text-align: left;
   display: flex;
   align-items: center;
   justify-content: center;
