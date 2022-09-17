@@ -8,9 +8,30 @@
   --tertiary2: #606060;
   --partition: #393939;
 }
+@font-face {
+  font-family: 'Equinox';
+  src: url(./../src/assets/fonts/FontsFree-Net-EquinoxRegular.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./../src/assets/fonts/montserrat-v25-latin-regular.ttf); 
+}
 
 body {
   margin: 0px;
+  background-color: var(--background);
+  font-family: Equinox;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,html{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
   background-color: var(--background);
   font-family: Equinox;
 }
@@ -19,7 +40,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+#root{
+  height: 100%;
+  width: 100%;
+}
+.App{
+  height: 100%;
+  width: 100%;
+}
 .nav{
   margin: 1.5% auto ;
 
@@ -74,6 +102,79 @@ code {
   height: 36px;
   border-radius: 30px;
   background-color: var(--theme);
+}
+
+
+/* Home Page */
+
+.photos{
+  height: 85%;
+  width: 100%;
+  background-color: #DEDBDB;
+  border-top: 0.05rem solid #DEDBDB;
+}
+.photos_row1{
+  height: 60%;
+  width:100%;
+  display : flex;
+}
+.photos_row1_1{
+  height: 100%;
+  width: 60%;
+  background-color: #1C1C1C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line{
+  width: 150px;
+  height: 1px;
+  margin-left: 5px;
+  margin-top: 35px;
+  background-color: var(--title);
+}
+.photos_row1_1_text{
+  background-color: transparent;
+  font-family: 'Equinox';
+  position: relative;
+}
+.photos_row1_1_circlelogo{
+  position: absolute;
+  top: 13%;
+  left: -30%;
+}
+
+.photos_row1_2{
+  height: 100%;
+  width: 40%;
+  background-color: red;
+}
+.photos_row2{
+  height: 40%;
+  width: 100%;
+  display: flex;
+}
+.photos_row2_1{
+  height: 100%;
+  width: 37%;
+  background-color: red;
+}
+.photos_row2_2{
+  height: 100%;
+  width: 32%;
+  background-color: #ECB440;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photos_row2_3{
+  height: 100%;
+  width: 32%;
+  background-color: #FAE3B5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Project */
