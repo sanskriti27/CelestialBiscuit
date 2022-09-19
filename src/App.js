@@ -5,13 +5,15 @@ import "./App.css";
 // import Card from "./Components/Card";
 import HomePage from "./pages/HomePage";
 import Project from "./pages/Project";
+import About from "./pages/About";
 // import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <HomePage /> 
+      {/* <HomePage />  */}
       {/* <Project/> */}
+      <About/>
     </div>
   );
 }
