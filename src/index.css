@@ -1,6 +1,7 @@
 :root{
   --background: #1C1C1C;
   --theme: #ECB440;
+  --light-theme: #FAE3B5;
   --title: #FFFFFF;
   --primary: #E3E3E3;
   --secondary: #B3B3B3;
@@ -44,9 +45,7 @@ code {
   text-decoration: none;
 }
 
-/* .link:{
-  background-color: var(--primary);
-} */
+
 .logo{
   width: 15%;
 }
@@ -84,7 +83,7 @@ code {
 
 .Main-1{
   width: 80%;
-  border-top: 1px solid #848484;
+  border-top: 1px solid var(--tertiary1);
 }
 
 .Hero{
@@ -136,7 +135,7 @@ code {
 .Main-2>div{
   width: 20%;
   height: 100%;
-  background-color: #ECB440;
+  background-color: var(--theme);
 }
 
 .Main-2 .text{
@@ -145,7 +144,7 @@ code {
   align-items: center;
   justify-content: center;
   width: 80%;
-  background-color: #FAE3B5;
+  background-color: var(--light-theme);
   color: var(--theme);
   font-size: 2rem;
 }
@@ -242,7 +241,100 @@ code {
 
 .credit{
   padding: 0.5% 0;
-  background-color: #1C1C1C;
+  background-color: var(--background);
   color: var(--primary);
   text-align: center;
 }
+
+/* Photo Gallery */
+.photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49.5%;
+}
+
+.photo .Hero .hero-title-2{
+  margin-top: -10% ;
+  margin-left: -50%;
+}
+
+.partition{
+  height: 2vh;
+  background-image: url(./assets/Gradient.png);
+}
+
+.gallery-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60vw;
+}
+
+.gallery-container>div{
+  color: var(--primary);
+  display: flex;
+  align-items:  center;
+}
+
+.gallery-container>div>h3{
+  font-size: 1.5rem;
+}
+
+.gallery-container>div>.line{
+  background-color: var(--primary);
+  height: 0.1em;
+  width: 10em;
+  margin-left: 1em;
+}
+
+.gallery{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.gallery .row{
+  display: flex;
+}
+
+.gallery .row .big{
+  background-color: oldlace;
+  width: 30vw;
+  height: 30vh;
+}
+
+.gallery .row .column{
+  width:30vw;
+  height: 30vh;
+  display: flex;
+}
+
+.gallery .row .column div{
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery .row .column div .block{
+  width: 15vw;
+  height: 15vh;
+  margin: 0.1em;
+  background-color: var(--primary);
+}
+
+
+
+
+
+
+
+
+
+
+
