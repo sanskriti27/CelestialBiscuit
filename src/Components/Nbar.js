@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Nbar = (location) => {
   return (
     <div>
-      <Navbar bg="light" expand="lg" >
+      <Navbar collapseOnSelect bg="light" expand="lg" >
         <Container className="nav">
           <img src={logo} alt="Celestial Biscuit IGDTUW" className="logo"/>
             <Nav className="navbox" variant="pills" >
