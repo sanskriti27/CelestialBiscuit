@@ -15,10 +15,10 @@ const HomePage = () => {
           <div className="photos_row1_1">
             <div className="photos_row1_1_text">
               <img src={Stamp} alt="Stamp" className="photos_row1_1_circlelogo"/>
-              <p style={{ color: 'white', fontSize: '3rem', fontFamily: "Montserrat" }}>WELCOME TO</p>
-              <p style={{ fontSize: '4rem', color: '#ECB440' }}>CELESTIAL</p>
-              <p style={{ fontSize: '4rem', color: '#ECB440' }}>BISCUIT</p>
-              <p style={{ fontSize: '4rem', color: '#ECB440', display:'flex'}}>IGDTUW <div classNameName='line'></div></p>
+              <p style={{ textAlign:'left',color: 'white', fontSize: '3rem', fontFamily: "Montserrat" }}>WELCOME TO</p>
+              <p style={{ textAlign:'left',fontSize: '4rem', color: '#ECB440' }}>CELESTIAL</p>
+              <p style={{ textAlign:'left',fontSize: '4rem', color: '#ECB440' }}>BISCUIT</p>
+              <p style={{ textAlign:'left',fontSize: '4rem', color: '#ECB440', display:'flex', alignItems:'center'}}>IGDTUW <div className='line'></div></p>
             </div>
           </div>
           <div className="photos_row1_2">

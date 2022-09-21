@@ -6,13 +6,16 @@ import Gallery from "./pages/Gallery";
 // import Card from "./Components/Card";
 // import HomePage from "./pages/HomePage";
 // import Project from "./pages/Project";
+import About from "./pages/About";
 
 function App() {
   return (
     <div className="App">
-      {/* <HomePage /> */}
-      {/* <Project/> */}
+      <HomePage />
+       <Project/>
       <Gallery/>
+      <About/>
+
     </div>
   );
 }
