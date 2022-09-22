@@ -259,17 +259,19 @@ code {
   height: 100%;
   width: 100%;
   background-color: #1C1C1C;
+  margin: 2rem;
 }
 
 .whatwedo-title{
   height: 10%; 
   color: var(--theme);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: 'Montserrat';
-
+  font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2rem 0;
 }
 
 .whatwedo-block1{
@@ -292,14 +294,16 @@ code {
 }
 
 .vertical-line{
+  margin-top: 1rem;
   height: 100%;
-  width: 2px;
+  width: 1px;
   background-color: var(--title);
   margin-left: 10%;
 }
 .whatwedo-block1-text-content{
+  margin-top: 1rem;
   height: 100%;
-  width: 80%;
+  width: 85%;
   font-size: 2rem;
   font-family: 'Montserrat';
   color: var(--title);
@@ -307,12 +311,13 @@ code {
 
 .sentences{
   display: flex;
+  align-items: baseline;
   height: '20%';
 }
 
 .whatwedo-block2{
   height: 50%;
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   margin:auto;
@@ -331,13 +336,17 @@ code {
   font-family: 'Montserrat';
   font-size: 2rem;
   color: var(--title);
+  margin-bottom: 2rem;
 }
 
 .whatwedo-block2-text-small{
   height: 35%;
+  width: 50%;
   font-family: 'Montserrat';
   font-size: 1.25rem;
   color: var(--title);
+  text-align: left;
+  margin-left: 18%;
 }
 
 .i{

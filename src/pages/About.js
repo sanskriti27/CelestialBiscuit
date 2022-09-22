@@ -62,7 +62,7 @@ function About() {
 
                             <div className='whatwedo-block1-text-content'>
                                 <div className='sentences'> <p className='i end'>into assertive</p> <p className='highlight' style={{ marginLeft: '2%' }} >WOMEN</p> </div>
-                                <div className='sentences'> <p className='i end'>adept at </p> <p className='highlight' style={{ marginLeft: '2%' }}>LEADING</p> <p className='i end' style={{ marginLeft: '2%' }}>through</p></div>
+                                <div className='sentences'> <p className='i end'> adept at </p> <p className='highlight' style={{ marginLeft: '2%' }}>LEADING</p> <p className='i end' style={{ marginLeft: '2%' }}>through</p></div>
                                 <div className='sentences'> <p className='highlight' style={{ marginLeft: '2%' }}>INSPIRING </p> <p style={{ marginLeft: '2%' }} className='i end'>conceptions and</p></div>
                                 <div className='sentences'> <p className='i end'>gestures.</p></div>
 
@@ -96,11 +96,7 @@ function About() {
                         </div>
                         {/* SMALL PARAGRAPH */}
                         <div className='whatwedo-block2-text-small'>
-                            <p style={{ textAlign: 'center' }}>aim for advancement</p>
-                            <p style={{ textAlign: 'center' }}>of the world through</p>
-                            <p style={{ textAlign: 'center' }}>our technical prowess</p>
-                            <p style={{ textAlign: 'center' }}>with every recruitment/</p>
-                            <p style={{ textAlign: 'center' }}>action we perform.</p>
+                            aim for advancement of the world through our technical prowess with every recruitment/action we perform.
                         </div>
                         {/* LINE */}
                         <div className='line2'></div>
