@@ -7,14 +7,28 @@ import Gallery from "./pages/Gallery";
 import HomePage from "./pages/HomePage";
 import Project from "./pages/Project";
 import About from "./pages/About";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
-       <Project/>
-      <Gallery/>
-      <About/>
+      <Router>
+          <Routes>
+            <Route path="/" element={<HomePage/>}/>
+            <Route path="project/*" element={<Project/>}/>
+            <Route path="about/*" element={<About/>}/>
+            <Route path="gallery/*" element={<Gallery/>}/>
+          </Routes>
+
+      </Router>
+      
+      
+
 
     </div>
   );
