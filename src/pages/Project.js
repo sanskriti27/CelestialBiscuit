@@ -1,11 +1,13 @@
 import React from 'react'
-import Card from '../Components/Card'
-import Nbar from '../Components/Nbar'
 import Stamp from '../assets/Stamp.png'
 import Carousel from '../Components/Carousel'
 import Footer from '../Components/Footer'
+import { webApp, ML, mobileApp, research, bot } from '../data/Project'
+import CardFill from '../Components/CardFill'
+
 
 const Project = () => {
+
   return (
     <>
       <div className='cont'>
@@ -29,19 +31,23 @@ const Project = () => {
         <div className='inner-container'>
           <div>
             <div className='project-type'>WEB APPLICATIONS <div></div></div>
-              <Card/>
+              <CardFill   theme={webApp}/>
           </div>
           <div>
               <div className='project-type'>MOBILE APPLICATTIONS <div></div></div>
-              <Card/>
+              <CardFill theme={mobileApp}/>
           </div>
           <div>
               <div className='project-type'>MACHINE LEARNING AND ARTIFICIAL INTELLIGENCE <div></div></div>
-              <Card/>
+              <CardFill theme={ML}/>
           </div>
           <div>
               <div className='project-type'>RESEARCH <div></div></div>
-              <Card/>
+              <CardFill theme={research}/>
+          </div>
+          <div>
+              <div className='project-type'>BOT <div></div></div>
+              <CardFill theme={bot} />
           </div>
         </div>
       </div>

@@ -1,9 +1,5 @@
-// import logo from './logo.svg';
 import "./App.css";
 import Gallery from "./pages/Gallery";
-// import Footer from "./Components/Footer";
-// import Carousel from "./Components/Carousel";
-// import Card from "./Components/Card";
 import HomePage from "./pages/HomePage";
 import Project from "./pages/Project";
 import About from "./pages/About";
@@ -17,8 +13,7 @@ import Nbar from "./Components/Nbar";
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="App"> 
       <Router>
       <Nbar/>
           <Routes>
@@ -29,10 +24,6 @@ function App() {
           </Routes>
 
       </Router>
-      
-      
-
-
     </div>
   );
 }

@@ -1,11 +1,9 @@
 import React from 'react'
-import Nbar from '../Components/Nbar'
 import Stamp from '../assets/Stamp.png'
 import grad from '../assets/Gradient.png'
 import Pooja from '../assets/pooja.png'
 import Carousel from '../Components/Carousel'
 import Footer from '../Components/Footer'
-import { height, style } from '@mui/system'
 
 
 function About() {

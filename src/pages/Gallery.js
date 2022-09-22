@@ -1,7 +1,6 @@
 import React from 'react'
 import Carousel from '../Components/Carousel'
 import Footer from '../Components/Footer'
-import Nbar from '../Components/Nbar'
 import ClubPhoto from '../assets/ClubPhoto.png'
 import Stamp from '../assets/Stamp.png'
 import PhotoGrid from '../Components/PhotoGrid'

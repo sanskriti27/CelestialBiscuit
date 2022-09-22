@@ -1,5 +1,4 @@
 import React from 'react'
-import Nbar from './../Components/Nbar'
 import Stamp from './../assets/Stamp.png'
 import Pooja from './../assets/pooja.png'
 import Gradient from './../assets/Gradient.png'
