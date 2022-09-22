@@ -12,12 +12,15 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Nbar from "./Components/Nbar";
 
 
 function App() {
   return (
     <div className="App">
+      
       <Router>
+      <Nbar/>
           <Routes>
             <Route path="/" element={<HomePage/>}/>
             <Route path="project/*" element={<Project/>}/>

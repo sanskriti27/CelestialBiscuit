@@ -9,7 +9,6 @@ import Footer from '../Components/Footer'
 const HomePage = () => {
   return (
     <>
-      <Nbar />
       <div className="photos">
         <div className="photos_row1">
           <div className="photos_row1_1">

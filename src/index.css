@@ -71,9 +71,14 @@ code {
 .link {
   color: var(--primary);
   text-decoration: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.2rem;
 }
 
-
+.link:hover{
+  background-color: var(--light-theme);
+  color: var(--theme);
+}
 
 .logo{
   width: 15%;
@@ -102,6 +107,11 @@ code {
   height: 36px;
   border-radius: 30px;
   background-color: var(--theme);
+}
+
+.navbox .active{
+  background-color: var(--theme);
+  color: var(--primary);
 }
 
 

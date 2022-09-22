@@ -4,19 +4,21 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "./../assets/Logo.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { NavLink } from "react-bootstrap";
+import { useLocation } from "react-router";
 
-const Nbar = (props) => {
-
+const Nbar = () => {
+  const location = useLocation();
   return (
     <div>
       <Navbar collapseOnSelect bg="light" expand="lg" >
         <Container className="nav">
           <img src={logo} alt="Celestial Biscuit IGDTUW" className="logo"/>
-            <Nav className="navbox" variant="pills" >
-              <Nav.Link href="/"  className="link" >HOME</Nav.Link>
-              <Nav.Link href="/Project" className="link" >PROJECTS</Nav.Link>
-              <Nav.Link href="/Gallery" className="link" >GALLERY</Nav.Link>
-              <Nav.Link href="/About" className="link" >ABOUT</Nav.Link>
+            <Nav className="navbox" variant="pills" activeKey={location.pathname}>
+              <NavLink href="/" className="link" >HOME</NavLink>
+              <NavLink href="/Project"  className="link" >PROJECTS</NavLink>
+              <NavLink href="/Gallery"  className="link" >GALLERY</NavLink>
+              <NavLink href="/About"  className="link" >ABOUT</NavLink>
             </Nav>
             <Nav className="NavSocials">
               <div className="social"><a href="https://twitter.com/cbigdtuw"  target="_blank" rel="noopener noreferrer" > <FontAwesomeIcon icon="fa-brands fa-twitter" className="icon" /></a></div>

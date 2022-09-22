@@ -8,7 +8,6 @@ import Footer from '../Components/Footer'
 const Project = () => {
   return (
     <>
-      <Nbar/>
       <div className='cont'>
         <div className='Main-1'>
           <div className='Hero'>

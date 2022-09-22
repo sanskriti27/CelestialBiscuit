@@ -9,7 +9,6 @@ import PhotoGrid from '../Components/PhotoGrid'
 const Gallery = () => {
   return (
     <>
-        <Nbar/>
         <div className='cont'>
             <div className='Main-1 photo'>
                 <div className='Hero'>

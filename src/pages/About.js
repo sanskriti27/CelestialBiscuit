@@ -11,7 +11,6 @@ import { height, style } from '@mui/system'
 function About() {
     return (
         <>
-            <Nbar />
             <div className="about_heading">
                 <div className="about_heading_content">
                     <img src={Stamp} alt='Stamp' style={{ position: 'absolute', top: '13%', right: '30%' }} />
