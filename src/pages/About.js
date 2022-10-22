@@ -61,7 +61,9 @@ function About() {
                             <div className='vertical-line'></div>
 
                             <div className='whatwedo-block1-text-content'>
-                                <div className='sentences'> <p className='i end'>into assertive</p> <p className='highlight' style={{ marginLeft: '2%' }} >WOMEN</p> </div>
+                                <div className='sentences'> 
+                                <p className='i end'>into assertive</p> <p className='highlight' style={{ marginLeft: '2%' }} >WOMEN</p> 
+                                </div>
                                 <div className='sentences'> <p className='i end'> adept at </p> <p className='highlight' style={{ marginLeft: '2%' }}>LEADING</p> <p className='i end' style={{ marginLeft: '2%' }}>through</p></div>
                                 <div className='sentences'> <p className='highlight' style={{ marginLeft: '2%' }}>INSPIRING </p> <p style={{ marginLeft: '2%' }} className='i end'>conceptions and</p></div>
                                 <div className='sentences'> <p className='i end'>gestures.</p></div>
@@ -106,8 +108,8 @@ function About() {
             <Carousel />
             <div className='meettheteam'>
                 <div className='meettheteam-title'>
-                    <div style={{display:'flex', justifyContent:'center'}}>
-                        <p style={{fontStyle:'italic'}}>Meet the</p>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <p style={{ fontStyle: 'italic' }}>Meet the</p>
                         <div className='line-3'></div>
                     </div>
                     <p style={{ fontSize: '3.5rem', fontFamily: 'Equinox', color: '#ECB440' }}>TEAM</p>
