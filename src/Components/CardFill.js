@@ -7,7 +7,7 @@ function RenderingCard({theme}){
     })
 
     return(
-       <div>
+       <div className="inner-card-group">
          {list}
        </div>
     )

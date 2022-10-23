@@ -20,11 +20,11 @@ const Nbar = () => {
               <NavLink href="/Gallery"  className="link" >GALLERY</NavLink>
               <NavLink href="/About"  className="link" >ABOUT</NavLink>
             </Nav>
-            <Nav className="NavSocials">
+            <div className="NavSocials">
               <div className="social"><a href="https://twitter.com/cbigdtuw"  target="_blank" rel="noopener noreferrer" > <FontAwesomeIcon icon="fa-brands fa-twitter" className="icon" /></a></div>
               <div className="social"><a href="https://www.instagram.com/celestialbiscuit/"   target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon="fa-brands fa-instagram" className="icon"/></a></div>
               <div className="social"><a href="https://www.linkedin.com/company/celestial-biscuit-igdtuw/"  target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon="fa-brands fa-linkedin" className="icon"/></a></div>  
-            </Nav>
+            </div>
         </Container>
       </Navbar>
     </div>
