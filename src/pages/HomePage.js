@@ -13,10 +13,10 @@ const HomePage = () => {
           <div className="photos_row1_1">
             <div className="photos_row1_1_text">
               <img src={Stamp} alt="Stamp" className="photos_row1_1_circlelogo"/>
-              <p style={{ textAlign:'left',color: 'white', fontSize: '3rem', fontFamily: "Montserrat" }}>WELCOME TO</p>
-              <p style={{ textAlign:'left',fontSize: '4rem', color: '#ECB440' }}>CELESTIAL</p>
-              <p style={{ textAlign:'left',fontSize: '4rem', color: '#ECB440' }}>BISCUIT</p>
-              <p style={{ textAlign:'left',fontSize: '4rem', color: '#ECB440', display:'flex', alignItems:'center'}}>IGDTUW <div className='line'></div></p>
+              <p className='welcome'>WELCOME TO</p>
+              <p className='clubname'>CELESTIAL</p>
+              <p className='clubname'>BISCUIT</p>
+              <p className='clubname' style={{ display:'flex', alignItems:'center'}}>IGDTUW <div className='line'></div></p>
             </div>
           </div>
           <div className="photos_row1_2">
@@ -29,16 +29,16 @@ const HomePage = () => {
           </div>
           <div className="photos_row2_2">
             <div className="photos_row2_2_text">
-              <p style={{ fontFamily: 'Montserrat', fontSize: '3rem', color: '#fff' }} >SOLUTIONS</p>
-              <p style={{ fontFamily: 'Montserrat', fontSize: '3rem', color: '#fff' }} >THAT </p>
-              <p style={{ fontFamily: 'Montserrat', fontSize: '3rem', color: '#fff' }} >INSPIRE</p>
+              <p>SOLUTIONS</p>
+              <p>THAT </p>
+              <p>INSPIRE</p>
             </div>
           </div>
           <div className="photos_row2_3">
             <div className="photos_row2_3_text">
-              <p style={{ fontFamily: 'Montserrat', fontSize: '3rem', color: '#ECB440' }}>ROBUST</p>
-              <p style={{ fontFamily: 'Montserrat', fontSize: '3rem', color: '#ECB440' }}>AESTHETIC</p>
-              <p style={{ fontFamily: 'Montserrat', fontSize: '3rem', color: '#ECB440' }}>PRACTICAL</p>
+              <p>ROBUST</p>
+              <p>AESTHETIC</p>
+              <p>PRACTICAL</p>
             </div>
           </div>
         </div>
