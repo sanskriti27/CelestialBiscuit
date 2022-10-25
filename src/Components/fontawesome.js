@@ -5,6 +5,6 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faTwitter, faInstagram, faLinkedin, faBars);
+library.add(faTwitter, faInstagram, faLinkedin, faBars, faXmark);
