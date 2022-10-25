@@ -12,13 +12,15 @@ const Nbar = () => {
   const location = useLocation();
   const matches = useMediaQuery("(max-width:786px)");
   return (
-
     <div>
       <Navbar collapseOnSelect bg="light" expand="lg">
         <Container className="nav">
           <img src={logo} alt="Celestial Biscuit IGDTUW" className="logo" />
+
           {matches ? (
-            <></>
+            <div className="nav-button-mobile">
+              <FontAwesomeIcon icon="fa-solid fa-bars" />
+            </div>
           ) : (
             <>
               <Nav
