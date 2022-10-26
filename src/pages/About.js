@@ -96,7 +96,7 @@ function About() {
                                 <p className='highlight'>BISCUIT</p>
                                 <p style={{ marginLeft: '2%', color: 'white' }} className='highlight'>IGDTUW</p></div>
                         </div>
-                        {/* SMALL PARAGRAPH */}
+                        {/*  SMALL PARAGRAPH */}
                         <div className='whatwedo-block2-text-small'>
                             aim for advancement of the world through our technical prowess with every recruitment/action we perform.
                         </div>
