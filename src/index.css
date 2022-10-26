@@ -819,7 +819,8 @@ code {
 
   .navbox .active {
     background-color: var(--theme);
-    color: var(--primary);
+    color: var(--title);
+    font-weight: 900;
   }
 
   /* Home Page */
@@ -1562,7 +1563,8 @@ code {
 
   .navbox .active {
     background-color: var(--theme);
-    color: var(--primary);
+    color: var(--title);
+    font-weight: 900;
   }
 
   /* Home Page */
@@ -2305,7 +2307,8 @@ code {
 
   .navbox .active {
     background-color: var(--theme);
-    color: var(--primary);
+    color: var(--title);
+    font-weight: 900;
   }
 
   /* Home Page */
@@ -3218,7 +3221,8 @@ code {
 
   .navbox .active {
     background-color: var(--theme);
-    color: var(--primary);
+    color: var(--title);
+    font-weight: 900;
   }
 
   /* Home Page */
@@ -3980,7 +3984,8 @@ code {
 
   .navbox .active {
     background-color: var(--theme);
-    color: var(--primary);
+    color: var(--title);
+    font-weight: 900;
   }
 
   /* Home Page */
