@@ -3343,14 +3343,14 @@ code {
   }
 
   .about_photos {
-    height: 40%;
+    height: 90%;
     width: 100%;
     display: flex;
+    flex-direction: column;
   }
 
   .about_photos_1 {
     height: 100%;
-    width: 33.3%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3367,20 +3367,19 @@ code {
   .block1 div {
     color: #ecb440;
     font-family: "Montserrat";
-    font-size: 1rem;
+    font-size: 7vmin;
     text-align: left;
   }
 
   .block2 div {
     color: #fae3b5;
     font-family: "Montserrat";
-    font-size: 1rem;
+    font-size: 7vmin;
     text-align: left;
   }
 
   .checkerboard {
     height: 100%;
-    width: 33.3%;
     background-color: #eee;
     background-image: linear-gradient(
         45deg,
@@ -3403,7 +3402,7 @@ code {
   }
 
   .whatwedo {
-    height: 50%;
+    height: 80%;
     width: 100%;
     background-color: #1c1c1c;
     margin: 0.5rem 0 0.5rem 0;
@@ -3423,7 +3422,7 @@ code {
 
   .whatwedo-block1 {
     height: 40%;
-    width: 60%;
+    width: 96%;
     display: flex;
     margin: auto;
     justify-content: space-between;
@@ -3442,7 +3441,7 @@ code {
 
   .whatwedo-block1-text-heading {
     height: 20%;
-    font-size: 0.6rem;
+    font-size: 5vmin;
     display: flex;
     color: var(--title);
   }
@@ -3459,7 +3458,7 @@ code {
     margin-top: 1rem;
     height: 100%;
     width: 85%;
-    font-size: 0.35rem;
+    font-size: 2.5vmin;
     font-family: "Montserrat";
     color: var(--title);
   }
@@ -3472,7 +3471,7 @@ code {
 
   .whatwedo-block2 {
     height: 50%;
-    width: 70%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -3484,21 +3483,16 @@ code {
     width: 40%;
   }
 
-  .whatwedo-block2 > img {
-    height: 50%;
-    width: 40%;
-  }
-
   .whatwedo-block2-text {
     height: 70%;
-    width: 50%;
+    width: 55%;
     position: relative;
   }
 
   .whatwedo-block2-text-large {
     height: 50%;
     font-family: "Montserrat";
-    font-size: 0.4rem;
+    font-size: 2.5vmin;
     color: var(--title);
     margin-bottom: 2rem;
   }
@@ -3507,7 +3501,7 @@ code {
     height: 35%;
     width: 50%;
     font-family: "Montserrat";
-    font-size: 0.25rem;
+    font-size: 2vmin;
     color: var(--title);
     text-align: left;
     margin-left: 18%;
@@ -3521,7 +3515,7 @@ code {
 
   .highlight {
     font-family: "Equinox";
-    font-size: 0.6rem;
+    font-size: 5vmin;
     color: var(--theme);
   }
 
@@ -3530,7 +3524,7 @@ code {
     width: 2px;
     background-color: var(--title);
     position: absolute;
-    right: 10%;
+    right: 5%;
     top: 30%;
   }
 
