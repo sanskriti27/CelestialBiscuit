@@ -1,9 +1,10 @@
-import React from 'react'
-import Stamp from '../assets/Stamp.png'
-import grad from '../assets/Gradient.png'
-import Pooja from '../assets/pooja.png'
-import Carousel from '../Components/Carousel'
-import Footer from '../Components/Footer'
+import React from 'react';
+import Stamp from '../assets/Stamp.png';
+import grad from '../assets/Gradient.png';
+import FounderCard from '../Components/FounderCard';
+import Carousel from '../Components/Carousel';
+import Footer from '../Components/Footer';
+import {Container} from 'react-bootstrap';
 
 
 function About() {
@@ -11,10 +12,10 @@ function About() {
         <>
             <div className="about_heading">
                 <div className="about_heading_content">
-                    <img src={Stamp} alt='Stamp' style={{ position: 'absolute', top: '13%', right: '30%' }} />
+                    <img src={Stamp} alt='Stamp' className='stamp' />
                     <p className='about-title'>about <div className="line"></div></p>
-                    <p style={{ textAlign: 'right', color: '#ECB440', fontSize: '2.5rem' }}>CELESTIAL BISCUIT</p>
-                    <p style={{ textAlign: 'right', color: '#ECB440', fontSize: '2.5rem' }}>IGDTUW</p>
+                    <p style={{ textAlign: 'right', color: '#ECB440', fontSize: '2.5rem' }} className='cb'>CELESTIAL BISCUIT</p>
+                    <p style={{ textAlign: 'right', color: '#ECB440', fontSize: '2.5rem' }} className='cb'>IGDTUW</p>
                 </div>
             </div>
             <div className="about_photos">
@@ -72,11 +73,11 @@ function About() {
 
                         </div>
                     </div>
-                    <img src={grad} alt='celestial biscuit' />
+                    <img src={grad} alt='celestial biscuit'/>
                 </div>
                 {/* BLOCK 2 */}
                 <div className='whatwedo-block2'>
-                    <img src={grad} alt='Celestial biscuit' style={{ width: '40%' }}></img>
+                    <img src={grad} alt='Celestial biscuit'></img>
                     <div className='whatwedo-block2-text'>
                         {/* LARGE content */}
                         <div className='whatwedo-block2-text-large'>
@@ -98,7 +99,7 @@ function About() {
                         </div>
                         {/*  SMALL PARAGRAPH */}
                         <div className='whatwedo-block2-text-small'>
-                            aim for advancement of the world through our technical prowess with every recruitment/action we perform.
+                            aim for advancement of <br/> the world through our <br/> technical prowess with <br/> every recruitment/<br/>action we perform.
                         </div>
                         {/* LINE */}
                         <div className='line2'></div>
@@ -106,16 +107,28 @@ function About() {
                 </div>
             </div>
             <Carousel />
-            <div className='meettheteam'>
+            <div className='meettheteam container'>
                 <div className='meettheteam-title'>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <p style={{ fontStyle: 'italic' }}>Meet the</p>
                         <div className='line-3'></div>
                     </div>
-                    <p style={{ fontSize: '3.5rem', fontFamily: 'Equinox', color: '#ECB440' }}>TEAM</p>
+                    <p className='team'>TEAM</p>
                 </div>
-                <div className='meettheteam-body'>
-                    <div style={{ backgroundImage: `url(${Pooja})` }} className='founder-card'>
+                <Container className='meettheteam-body'>
+                    <FounderCard 
+                        name='Pooja Gera'
+                    />
+                    <FounderCard 
+                        name='Nishtha Goyal'
+                    />
+                    <FounderCard 
+                        name='Gaurisha R Shrivastava'
+                    />
+                    <FounderCard 
+                        name='Abhigya Verma'
+                    />
+                    {/* <div style={{ backgroundImage: `url(${Pooja})` }} className='founder-card'>
                         <div className='founder-name'>
                             <p style={{ color: '#ECB440', fontFamily: 'Montserrat', marginBottom: '2%' }}><strong>POOJA GERA</strong></p>
                             <p>FOUNDER</p>
@@ -138,8 +151,8 @@ function About() {
                             <p style={{ color: '#ECB440', fontFamily: 'Montserrat', marginBottom: '2%' }}><strong>POOJA GERA</strong></p>
                             <p>FOUNDER</p>
                         </div>
-                    </div>
-                </div>
+                    </div> */}
+                </Container>
             </div>
             <Footer />
         </>
