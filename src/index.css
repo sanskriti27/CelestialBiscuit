@@ -4919,10 +4919,10 @@ code {
   }
 
   .card-group>div {
-    
+
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
   /* Card */
@@ -4934,8 +4934,8 @@ code {
   }
 
   .card {
-    width: 13rem !important;
-    height: 13rem !important;
+    width: 9rem !important;
+    height: 8rem !important;
     border-radius: 8px;
   }
 
@@ -4956,9 +4956,8 @@ code {
   .cardBack p {
     /* text-align: justify; */
     font-weight: 600;
-    text-overflow: clip;
     font-family: Montserrat;
-    font-size: 7.5px;
+    font-size: 0.4rem;
   }
 
   .project-type {
@@ -4991,7 +4990,7 @@ code {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 15%;
+    height: 10%;
     overflow: hidden;
   }
 
@@ -5014,6 +5013,7 @@ code {
     background-color: var(--background);
     color: var(--primary);
     text-align: center;
+    font-size: 0.4rem;
   }
 
   /* Photo Gallery */
