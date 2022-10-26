@@ -3113,7 +3113,7 @@ code {
   }
 
   .full-screen-nav {
-    background-color: black;
+    background-color: var(--background);
     width: 100vw;
     overflow: hidden;
     height: 0px;
@@ -3183,14 +3183,14 @@ code {
   /* Home Page */
 
   .photos {
-    height: 70%;
-    width: 100%;
+    height: 100%;
+    width: 102vw;
     background-color: #dedbdb;
     border-top: 0.05rem solid #dedbdb;
   }
 
   .photos_row1 {
-    height: 60%;
+    height: 40%;
     width: 100%;
     display: flex;
   }
@@ -3244,24 +3244,26 @@ code {
   }
 
   .photos_row2 {
-    height: 40%;
+    height: 50%;
     width: 100%;
     display: flex;
+    flex-direction: column;
   }
 
   .photos_row2_1 {
     height: 100%;
-    width: 37%;
+    width: 100%;
     background-color: red;
   }
 
   .photos_row2_2 {
     height: 100%;
-    width: 32%;
+    width: 100%;
     background-color: #ecb440;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5%;
   }
 
   .photos_row2_2 p {
@@ -3272,11 +3274,12 @@ code {
 
   .photos_row2_3 {
     height: 100%;
-    width: 32%;
+    width: 100%;
     background-color: #fae3b5;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5%;
   }
 
   .photos_row2_3 p {
@@ -3594,13 +3597,16 @@ code {
   /* Project */
 
   .cont {
+    border-top: 0.09rem solid var(--primary);
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .Main-1 {
     width: 100%;
-    border-top: 1px solid var(--tertiary1);
+    display: flex;
+    align-items: center;
   }
 
   .Hero {
@@ -3627,7 +3633,7 @@ code {
   }
 
   .Hero .hero-title-1 img {
-    width: 30%;
+    width: 25%;
     margin-left: -10%;
   }
 
@@ -3650,11 +3656,6 @@ code {
     display: flex;
   }
 
-  .Main-2 > div {
-    width: 0;
-    height: 100%;
-    background-color: var(--theme);
-  }
 
   .Main-2 .text {
     text-align: left;
@@ -3665,27 +3666,33 @@ code {
     background-color: var(--light-theme);
     color: var(--theme);
     font-size: 1rem;
+    padding: 5%;
   }
 
   .Main-2 .text div {
-    padding: 2%;
     width: 60%;
+  }
+
+
+  .cont .Main-2 img{
+    width: 100vw
   }
 
   .project-container {
     margin-top: 5%;
     display: flex;
     justify-content: center;
+    margin-bottom: 5%;
   }
 
   .inner-container {
     margin-left: 10%;
-    width: 90%;
+    width: 100%;
   }
 
   /* Card Fill */
   .card-group {
-    margin-bottom: 0.5rem;
+    margin-bottom: 10%;
   }
 
   .card-group > div {
@@ -3703,9 +3710,10 @@ code {
   }
 
   .card {
-    width: 9rem !important;
-    height: 8rem !important;
+    width: 9.5rem !important;
+    height: 9rem !important;
     border-radius: 8px;
+    
   }
 
   .cardFront {
@@ -3726,7 +3734,7 @@ code {
     /* text-align: justify; */
     font-weight: 600;
     font-family: Montserrat;
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
 
   .project-type {
@@ -3739,9 +3747,9 @@ code {
   }
 
   .project-type div {
-    width: 50px;
+    width: 5%;
     height: 1px;
-    margin-left: 5px;
+    margin-left: 2px;
     background-color: var(--title);
   }
 
