@@ -5,25 +5,25 @@
 }
 
 :root {
-  --background: #1C1C1C;
-  --theme: #ECB440;
-  --light-theme: #FAE3B5;
-  --title: #FFFFFF;
-  --primary: #E3E3E3;
-  --secondary: #B3B3B3;
+  --background: #1c1c1c;
+  --theme: #ecb440;
+  --light-theme: #fae3b5;
+  --title: #ffffff;
+  --primary: #e3e3e3;
+  --secondary: #b3b3b3;
   --tertiary1: #848484;
   --tertiary2: #606060;
   --partition: #393939;
 }
 
 @font-face {
-  font-family: 'Equinox';
+  font-family: "Equinox";
   src: url(./../src/assets/fonts/FontsFree-Net-EquinoxRegular.ttf);
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   src: url(./../src/assets/fonts/montserrat-v25-latin-regular.ttf);
 }
 
@@ -37,7 +37,7 @@ html {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -116,14 +116,13 @@ code {
   color: var(--primary);
 }
 
-
 /* Home Page */
 
 .photos {
   height: 85%;
   width: 100%;
-  background-color: #DEDBDB;
-  border-top: 0.05rem solid #DEDBDB;
+  background-color: #dedbdb;
+  border-top: 0.05rem solid #dedbdb;
 }
 
 .photos_row1 {
@@ -135,7 +134,7 @@ code {
 .photos_row1_1 {
   height: 100%;
   width: 60%;
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,7 +149,7 @@ code {
 
 .photos_row1_1_text {
   background-color: transparent;
-  font-family: 'Equinox';
+  font-family: "Equinox";
   position: relative;
 }
 
@@ -181,38 +180,39 @@ code {
 .photos_row2_2 {
   height: 100%;
   width: 32%;
-  background-color: #ECB440;
+  background-color: #ecb440;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.photos_row2_2 p{
+
+.photos_row2_2 p {
   font-family: Montserrat;
   color: #fff;
   font-size: 2.5rem;
 }
+
 .photos_row2_3 {
   height: 100%;
   width: 32%;
-  background-color: #FAE3B5;
+  background-color: #fae3b5;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.photos_row2_3 p{
+.photos_row2_3 p {
   font-family: Montserrat;
   font-size: 2.5rem;
-  color: #ECB440;
+  color: #ecb440;
 }
-
 
 /* About */
 .about_heading {
   height: 35%;
   width: 100%;
-  background-color: #1C1C1C;
-  border-top: 0.05rem solid #DEDBDB;
+  background-color: #1c1c1c;
+  border-top: 0.05rem solid #dedbdb;
   position: relative;
   display: flex;
   justify-content: center;
@@ -225,7 +225,7 @@ code {
   color: #ffffff;
   font-size: 2.5rem;
   font-style: italic;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .about_photos {
@@ -243,23 +243,23 @@ code {
 }
 
 .block1 {
-  background-color: #FAE3B5;
+  background-color: #fae3b5;
 }
 
 .block2 {
-  background-color: #ECB440;
+  background-color: #ecb440;
 }
 
 .block1 div {
-  color: #ECB440;
-  font-family: 'Montserrat';
+  color: #ecb440;
+  font-family: "Montserrat";
   font-size: 2rem;
   text-align: left;
 }
 
 .block2 div {
-  color: #FAE3B5;
-  font-family: 'Montserrat';
+  color: #fae3b5;
+  font-family: "Montserrat";
   font-size: 2rem;
   text-align: left;
 }
@@ -268,8 +268,22 @@ code {
   height: 100%;
   width: 33.3%;
   background-color: #eee;
-  background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
-    linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+  background-image: linear-gradient(
+      45deg,
+      black 25%,
+      transparent 25%,
+      transparent 75%,
+      black 75%,
+      black
+    ),
+    linear-gradient(
+      45deg,
+      black 25%,
+      transparent 25%,
+      transparent 75%,
+      black 75%,
+      black
+    );
   background-size: 60px 60px;
   background-position: 0 0, 30px 30px;
 }
@@ -277,7 +291,7 @@ code {
 .whatwedo {
   height: 100%;
   width: 100%;
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
   margin: 2rem;
 }
 
@@ -285,7 +299,7 @@ code {
   height: 10%;
   color: var(--theme);
   font-size: 1.2rem;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 700;
   display: flex;
   justify-content: center;
@@ -327,14 +341,14 @@ code {
   height: 100%;
   width: 85%;
   font-size: 2rem;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   color: var(--title);
 }
 
 .sentences {
   display: flex;
   align-items: baseline;
-  height: '20%';
+  height: "20%";
 }
 
 .whatwedo-block2 {
@@ -344,7 +358,6 @@ code {
   justify-content: space-between;
   margin: auto;
   padding-bottom: 5%;
-
 }
 
 .whatwedo-block2-text {
@@ -355,7 +368,7 @@ code {
 
 .whatwedo-block2-text-large {
   height: 65%;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 2rem;
   color: var(--title);
   margin-bottom: 2rem;
@@ -364,7 +377,7 @@ code {
 .whatwedo-block2-text-small {
   height: 35%;
   width: 50%;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 1.25rem;
   color: var(--title);
   text-align: left;
@@ -378,7 +391,7 @@ code {
 }
 
 .highlight {
-  font-family: 'Equinox';
+  font-family: "Equinox";
   font-size: 3rem;
   color: var(--theme);
 }
@@ -404,7 +417,7 @@ code {
   height: 20%;
   color: var(--title);
   font-size: 2rem;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   position: relative;
 }
 
@@ -430,7 +443,11 @@ code {
   background-size: fill;
   background-repeat: no-repeat;
   position: relative;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 33.82%, rgba(0, 0, 0, 0.74) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 33.82%,
+    rgba(0, 0, 0, 0.74) 100%
+  );
 }
 
 .founder-name {
@@ -453,7 +470,6 @@ code {
 }
 
 .Hero {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -486,7 +502,7 @@ code {
   margin-left: -20%;
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--theme)
+  color: var(--theme);
 }
 
 .Main-1 .grad {
@@ -500,7 +516,7 @@ code {
   display: flex;
 }
 
-.Main-2>div {
+.Main-2 > div {
   width: 20%;
   height: 100%;
   background-color: var(--theme);
@@ -536,7 +552,7 @@ code {
   margin-bottom: 3rem;
 }
 
-.card-group>div {
+.card-group > div {
   display: flex;
   flex-wrap: wrap;
 }
@@ -548,7 +564,6 @@ code {
 }
 
 .card {
-
   width: 13rem !important;
   height: 13rem !important;
   border-radius: 8px;
@@ -621,7 +636,6 @@ code {
   justify-content: space-between;
 }
 
-
 .footer-container .right img {
   width: 50%;
 }
@@ -631,7 +645,6 @@ code {
   background-color: var(--background);
   color: var(--primary);
   text-align: center;
-
 }
 
 /* Photo Gallery */
@@ -666,17 +679,17 @@ code {
   width: 80%;
 }
 
-.gallery-container>div {
+.gallery-container > div {
   color: var(--primary);
   display: flex;
   align-items: center;
 }
 
-.gallery-container>div>h3 {
+.gallery-container > div > h3 {
   font-size: 1.5rem;
 }
 
-.gallery-container>div>.line {
+.gallery-container > div > .line {
   background-color: var(--primary);
   height: 0.1em;
   width: 10em;
@@ -692,14 +705,13 @@ code {
 
 .gallery-container .container .row-main {
   display: flex;
-  gap: 0.3351206434316354vw
+  gap: 0.3351206434316354vw;
 }
 
 .gallery-container .container .row-main .column-main {
   display: flex;
   flex-direction: column;
   gap: 0.3351206434316354vw;
-
 }
 
 .gallery-container .container .row-main .column-main .big-main {
@@ -710,13 +722,13 @@ code {
   align-items: center;
 }
 
-.gallery-container .container .row-main .column-main .big-main>img {
+.gallery-container .container .row-main .column-main .big-main > img {
   width: inherit;
 }
 
 .gallery-container .container .row-main .column-main .row {
   display: flex;
-  gap: 0.3351206434316354vw
+  gap: 0.3351206434316354vw;
 }
 
 .gallery-container .container .row-main .column-main .row .big {
@@ -727,7 +739,7 @@ code {
   align-items: center;
 }
 
-.gallery-container .container .row-main .column-main .row .big>img {
+.gallery-container .container .row-main .column-main .row .big > img {
   width: inherit;
 }
 
@@ -735,15 +747,13 @@ code {
   background-color: pink;
   width: 13.404825737265416vw;
   height: 23.130193905817176vh;
-
 }
 
-.gallery-container .container .row-main .column-main .row .small>img {
+.gallery-container .container .row-main .column-main .row .small > img {
   width: inherit;
 }
 
 @media (min-width: 1281px) {
-
   .nav {
     margin: 1.5% auto;
 
@@ -809,14 +819,13 @@ code {
     color: var(--primary);
   }
 
-
   /* Home Page */
 
   .photos {
     height: 85%;
     width: 100%;
-    background-color: #DEDBDB;
-    border-top: 0.05rem solid #DEDBDB;
+    background-color: #dedbdb;
+    border-top: 0.05rem solid #dedbdb;
   }
 
   .photos_row1 {
@@ -828,7 +837,7 @@ code {
   .photos_row1_1 {
     height: 100%;
     width: 60%;
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -843,19 +852,20 @@ code {
 
   .photos_row1_1_text {
     background-color: transparent;
-    font-family: 'Equinox';
+    font-family: "Equinox";
     position: relative;
   }
 
-  .photos_row1_1_text .welcome{
-    text-align:left;
+  .photos_row1_1_text .welcome {
+    text-align: left;
     color: white;
-    font-size: 3rem; 
-    font-family: Montserrat ;
+    font-size: 3rem;
+    font-family: Montserrat;
   }
-  .photos_row1_1_text .clubname{
-    text-align:left;
-    color: #ECB440;
+
+  .photos_row1_1_text .clubname {
+    text-align: left;
+    color: #ecb440;
     font-size: 4rem;
   }
 
@@ -886,38 +896,39 @@ code {
   .photos_row2_2 {
     height: 100%;
     width: 32%;
-    background-color: #ECB440;
+    background-color: #ecb440;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .photos_row2_2 p{
+  .photos_row2_2 p {
     font-family: Montserrat;
     color: #fff;
     font-size: 2.5rem;
   }
+
   .photos_row2_3 {
     height: 100%;
     width: 32%;
-    background-color: #FAE3B5;
+    background-color: #fae3b5;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .photos_row2_3 p{
+  .photos_row2_3 p {
     font-family: Montserrat;
     font-size: 2.5rem;
-    color: #ECB440;
+    color: #ecb440;
   }
 
   /* About */
   .about_heading {
     height: 35%;
     width: 100%;
-    background-color: #1C1C1C;
-    border-top: 0.05rem solid #DEDBDB;
+    background-color: #1c1c1c;
+    border-top: 0.05rem solid #dedbdb;
     position: relative;
     display: flex;
     justify-content: center;
@@ -930,7 +941,7 @@ code {
     color: #ffffff;
     font-size: 2.5rem;
     font-style: italic;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
   }
 
   .about_photos {
@@ -948,23 +959,23 @@ code {
   }
 
   .block1 {
-    background-color: #FAE3B5;
+    background-color: #fae3b5;
   }
 
   .block2 {
-    background-color: #ECB440;
+    background-color: #ecb440;
   }
 
   .block1 div {
-    color: #ECB440;
-    font-family: 'Montserrat';
+    color: #ecb440;
+    font-family: "Montserrat";
     font-size: 2rem;
     text-align: left;
   }
 
   .block2 div {
-    color: #FAE3B5;
-    font-family: 'Montserrat';
+    color: #fae3b5;
+    font-family: "Montserrat";
     font-size: 2rem;
     text-align: left;
   }
@@ -973,8 +984,22 @@ code {
     height: 100%;
     width: 33.3%;
     background-color: #eee;
-    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
-      linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-image: linear-gradient(
+        45deg,
+        black 25%,
+        transparent 25%,
+        transparent 75%,
+        black 75%,
+        black
+      ),
+      linear-gradient(
+        45deg,
+        black 25%,
+        transparent 25%,
+        transparent 75%,
+        black 75%,
+        black
+      );
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
   }
@@ -982,7 +1007,7 @@ code {
   .whatwedo {
     height: 100%;
     width: 100%;
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
     margin: 2rem;
   }
 
@@ -990,7 +1015,7 @@ code {
     height: 10%;
     color: var(--theme);
     font-size: 1.2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -1032,14 +1057,14 @@ code {
     height: 100%;
     width: 85%;
     font-size: 2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     color: var(--title);
   }
 
   .sentences {
     display: flex;
     align-items: baseline;
-    height: '20%';
+    height: "20%";
   }
 
   .whatwedo-block2 {
@@ -1049,7 +1074,6 @@ code {
     justify-content: space-between;
     margin: auto;
     padding-bottom: 5%;
-
   }
 
   .whatwedo-block2-text {
@@ -1060,7 +1084,7 @@ code {
 
   .whatwedo-block2-text-large {
     height: 65%;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 2rem;
     color: var(--title);
     margin-bottom: 2rem;
@@ -1069,7 +1093,7 @@ code {
   .whatwedo-block2-text-small {
     height: 35%;
     width: 50%;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 1.25rem;
     color: var(--title);
     text-align: left;
@@ -1083,7 +1107,7 @@ code {
   }
 
   .highlight {
-    font-family: 'Equinox';
+    font-family: "Equinox";
     font-size: 3rem;
     color: var(--theme);
   }
@@ -1109,7 +1133,7 @@ code {
     height: 20%;
     color: var(--title);
     font-size: 2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     position: relative;
   }
 
@@ -1135,7 +1159,11 @@ code {
     background-size: fill;
     background-repeat: no-repeat;
     position: relative;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 33.82%, rgba(0, 0, 0, 0.74) 100%);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 33.82%,
+      rgba(0, 0, 0, 0.74) 100%
+    );
   }
 
   .founder-name {
@@ -1158,7 +1186,6 @@ code {
   }
 
   .Hero {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1191,7 +1218,7 @@ code {
     margin-left: -20%;
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--theme)
+    color: var(--theme);
   }
 
   .Main-1 .grad {
@@ -1205,7 +1232,7 @@ code {
     display: flex;
   }
 
-  .Main-2>div {
+  .Main-2 > div {
     width: 20%;
     height: 100%;
     background-color: var(--theme);
@@ -1241,7 +1268,7 @@ code {
     margin-bottom: 3rem;
   }
 
-  .card-group>div {
+  .card-group > div {
     display: flex;
     flex-wrap: wrap;
   }
@@ -1253,7 +1280,6 @@ code {
   }
 
   .card {
-
     width: 13rem !important;
     height: 13rem !important;
     border-radius: 8px;
@@ -1323,7 +1349,6 @@ code {
     margin-top: 10%;
   }
 
-
   .footer-container .right img {
     width: 50%;
   }
@@ -1333,7 +1358,6 @@ code {
     background-color: var(--background);
     color: var(--primary);
     text-align: center;
-
   }
 
   /* Photo Gallery */
@@ -1368,17 +1392,17 @@ code {
     width: 80%;
   }
 
-  .gallery-container>div {
+  .gallery-container > div {
     color: var(--primary);
     display: flex;
     align-items: center;
   }
 
-  .gallery-container>div>h3 {
+  .gallery-container > div > h3 {
     font-size: 1.5rem;
   }
 
-  .gallery-container>div>.line {
+  .gallery-container > div > .line {
     background-color: var(--primary);
     height: 0.1em;
     width: 10em;
@@ -1394,14 +1418,13 @@ code {
 
   .gallery-container .container .row-main {
     display: flex;
-    gap: 0.3351206434316354vw
+    gap: 0.3351206434316354vw;
   }
 
   .gallery-container .container .row-main .column-main {
     display: flex;
     flex-direction: column;
     gap: 0.3351206434316354vw;
-
   }
 
   .gallery-container .container .row-main .column-main .big-main {
@@ -1412,13 +1435,13 @@ code {
     align-items: center;
   }
 
-  .gallery-container .container .row-main .column-main .big-main>img {
+  .gallery-container .container .row-main .column-main .big-main > img {
     width: inherit;
   }
 
   .gallery-container .container .row-main .column-main .row {
     display: flex;
-    gap: 0.3351206434316354vw
+    gap: 0.3351206434316354vw;
   }
 
   .gallery-container .container .row-main .column-main .row .big {
@@ -1429,7 +1452,7 @@ code {
     align-items: center;
   }
 
-  .gallery-container .container .row-main .column-main .row .big>img {
+  .gallery-container .container .row-main .column-main .row .big > img {
     width: inherit;
   }
 
@@ -1437,14 +1460,11 @@ code {
     background-color: pink;
     width: 13.404825737265416vw;
     height: 23.130193905817176vh;
-
   }
 
-  .gallery-container .container .row-main .column-main .row .small>img {
+  .gallery-container .container .row-main .column-main .row .small > img {
     width: inherit;
   }
-
-
 }
 
 /* 
@@ -1453,7 +1473,6 @@ code {
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-
   /* CSS */
   .nav {
     margin: 1.5% auto;
@@ -1519,14 +1538,13 @@ code {
     color: var(--primary);
   }
 
-
   /* Home Page */
 
   .photos {
     height: 85%;
     width: 100%;
-    background-color: #DEDBDB;
-    border-top: 0.05rem solid #DEDBDB;
+    background-color: #dedbdb;
+    border-top: 0.05rem solid #dedbdb;
   }
 
   .photos_row1 {
@@ -1538,7 +1556,7 @@ code {
   .photos_row1_1 {
     height: 100%;
     width: 60%;
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1553,20 +1571,23 @@ code {
 
   .photos_row1_1_text {
     background-color: transparent;
-    font-family: 'Equinox';
+    font-family: "Equinox";
     position: relative;
   }
-  .photos_row1_1_text .welcome{
-    text-align:left;
+
+  .photos_row1_1_text .welcome {
+    text-align: left;
     color: white;
-    font-size: 2.5rem; 
-    font-family: Montserrat ;
+    font-size: 2.5rem;
+    font-family: Montserrat;
   }
-  .photos_row1_1_text .clubname{
-    text-align:left;
-    color: #ECB440;
+
+  .photos_row1_1_text .clubname {
+    text-align: left;
+    color: #ecb440;
     font-size: 3rem;
   }
+
   .photos_row1_1_circlelogo {
     position: absolute;
     top: 17%;
@@ -1595,38 +1616,39 @@ code {
   .photos_row2_2 {
     height: 100%;
     width: 32%;
-    background-color: #ECB440;
+    background-color: #ecb440;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .photos_row2_2 p{
+  .photos_row2_2 p {
     font-family: Montserrat;
     color: #fff;
     font-size: 2.5rem;
   }
+
   .photos_row2_3 {
     height: 100%;
     width: 32%;
-    background-color: #FAE3B5;
+    background-color: #fae3b5;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .photos_row2_3 p{
+  .photos_row2_3 p {
     font-family: Montserrat;
     font-size: 2.5rem;
-    color: #ECB440;
+    color: #ecb440;
   }
 
   /* About */
   .about_heading {
     height: 35%;
     width: 100%;
-    background-color: #1C1C1C;
-    border-top: 0.05rem solid #DEDBDB;
+    background-color: #1c1c1c;
+    border-top: 0.05rem solid #dedbdb;
     position: relative;
     display: flex;
     justify-content: center;
@@ -1639,7 +1661,7 @@ code {
     color: #ffffff;
     font-size: 2.5rem;
     font-style: italic;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
   }
 
   .about_photos {
@@ -1657,23 +1679,23 @@ code {
   }
 
   .block1 {
-    background-color: #FAE3B5;
+    background-color: #fae3b5;
   }
 
   .block2 {
-    background-color: #ECB440;
+    background-color: #ecb440;
   }
 
   .block1 div {
-    color: #ECB440;
-    font-family: 'Montserrat';
+    color: #ecb440;
+    font-family: "Montserrat";
     font-size: 2rem;
     text-align: left;
   }
 
   .block2 div {
-    color: #FAE3B5;
-    font-family: 'Montserrat';
+    color: #fae3b5;
+    font-family: "Montserrat";
     font-size: 2rem;
     text-align: left;
   }
@@ -1682,8 +1704,22 @@ code {
     height: 100%;
     width: 33.3%;
     background-color: #eee;
-    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
-      linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-image: linear-gradient(
+        45deg,
+        black 25%,
+        transparent 25%,
+        transparent 75%,
+        black 75%,
+        black
+      ),
+      linear-gradient(
+        45deg,
+        black 25%,
+        transparent 25%,
+        transparent 75%,
+        black 75%,
+        black
+      );
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
   }
@@ -1691,7 +1727,7 @@ code {
   .whatwedo {
     height: 100%;
     width: 100%;
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
     margin: 2rem;
   }
 
@@ -1699,7 +1735,7 @@ code {
     height: 10%;
     color: var(--theme);
     font-size: 1.2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -1741,14 +1777,14 @@ code {
     height: 100%;
     width: 85%;
     font-size: 2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     color: var(--title);
   }
 
   .sentences {
     display: flex;
     align-items: baseline;
-    height: '20%';
+    height: "20%";
   }
 
   .whatwedo-block2 {
@@ -1758,7 +1794,6 @@ code {
     justify-content: space-between;
     margin: auto;
     padding-bottom: 5%;
-
   }
 
   .whatwedo-block2-text {
@@ -1769,7 +1804,7 @@ code {
 
   .whatwedo-block2-text-large {
     height: 65%;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 2rem;
     color: var(--title);
     margin-bottom: 2rem;
@@ -1778,7 +1813,7 @@ code {
   .whatwedo-block2-text-small {
     height: 35%;
     width: 50%;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 1.25rem;
     color: var(--title);
     text-align: left;
@@ -1792,7 +1827,7 @@ code {
   }
 
   .highlight {
-    font-family: 'Equinox';
+    font-family: "Equinox";
     font-size: 3rem;
     color: var(--theme);
   }
@@ -1818,7 +1853,7 @@ code {
     height: 20%;
     color: var(--title);
     font-size: 2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     position: relative;
   }
 
@@ -1844,7 +1879,11 @@ code {
     background-size: fill;
     background-repeat: no-repeat;
     position: relative;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 33.82%, rgba(0, 0, 0, 0.74) 100%);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 33.82%,
+      rgba(0, 0, 0, 0.74) 100%
+    );
   }
 
   .founder-name {
@@ -1867,7 +1906,6 @@ code {
   }
 
   .Hero {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1900,7 +1938,7 @@ code {
     margin-left: -20%;
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--theme)
+    color: var(--theme);
   }
 
   .Main-1 .grad {
@@ -1914,7 +1952,7 @@ code {
     display: flex;
   }
 
-  .Main-2>div {
+  .Main-2 > div {
     width: 20%;
     height: 100%;
     background-color: var(--theme);
@@ -1950,7 +1988,7 @@ code {
     margin-bottom: 3rem;
   }
 
-  .card-group>div {
+  .card-group > div {
     display: flex;
     flex-wrap: wrap;
   }
@@ -1962,7 +2000,6 @@ code {
   }
 
   .card {
-
     width: 13rem !important;
     height: 13rem !important;
     border-radius: 8px;
@@ -2032,7 +2069,6 @@ code {
     margin-top: 10%;
   }
 
-
   .footer-container .right img {
     width: 50%;
   }
@@ -2042,7 +2078,6 @@ code {
     background-color: var(--background);
     color: var(--primary);
     text-align: center;
-
   }
 
   /* Photo Gallery */
@@ -2077,17 +2112,17 @@ code {
     width: 80%;
   }
 
-  .gallery-container>div {
+  .gallery-container > div {
     color: var(--primary);
     display: flex;
     align-items: center;
   }
 
-  .gallery-container>div>h3 {
+  .gallery-container > div > h3 {
     font-size: 1.5rem;
   }
 
-  .gallery-container>div>.line {
+  .gallery-container > div > .line {
     background-color: var(--primary);
     height: 0.1em;
     width: 10em;
@@ -2103,14 +2138,13 @@ code {
 
   .gallery-container .container .row-main {
     display: flex;
-    gap: 0.3351206434316354vw
+    gap: 0.3351206434316354vw;
   }
 
   .gallery-container .container .row-main .column-main {
     display: flex;
     flex-direction: column;
     gap: 0.3351206434316354vw;
-
   }
 
   .gallery-container .container .row-main .column-main .big-main {
@@ -2121,13 +2155,13 @@ code {
     align-items: center;
   }
 
-  .gallery-container .container .row-main .column-main .big-main>img {
+  .gallery-container .container .row-main .column-main .big-main > img {
     width: inherit;
   }
 
   .gallery-container .container .row-main .column-main .row {
     display: flex;
-    gap: 0.3351206434316354vw
+    gap: 0.3351206434316354vw;
   }
 
   .gallery-container .container .row-main .column-main .row .big {
@@ -2138,7 +2172,7 @@ code {
     align-items: center;
   }
 
-  .gallery-container .container .row-main .column-main .row .big>img {
+  .gallery-container .container .row-main .column-main .row .big > img {
     width: inherit;
   }
 
@@ -2146,14 +2180,11 @@ code {
     background-color: pink;
     width: 13.404825737265416vw;
     height: 23.130193905817176vh;
-
   }
 
-  .gallery-container .container .row-main .column-main .row .small>img {
+  .gallery-container .container .row-main .column-main .row .small > img {
     width: inherit;
   }
-
-
 }
 
 /* 
@@ -2162,7 +2193,6 @@ code {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
   /* CSS */
   .nav {
     margin: 1.5% auto;
@@ -2228,14 +2258,13 @@ code {
     color: var(--primary);
   }
 
-
   /* Home Page */
 
   .photos {
     height: 85%;
     width: 100%;
-    background-color: #DEDBDB;
-    border-top: 0.05rem solid #DEDBDB;
+    background-color: #dedbdb;
+    border-top: 0.05rem solid #dedbdb;
   }
 
   .photos_row1 {
@@ -2247,7 +2276,7 @@ code {
   .photos_row1_1 {
     height: 100%;
     width: 60%;
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2262,21 +2291,23 @@ code {
 
   .photos_row1_1_text {
     background-color: transparent;
-    font-family: 'Equinox';
+    font-family: "Equinox";
     position: relative;
+  }
 
-  }
-  .photos_row1_1_text .welcome{
-    text-align:left;
+  .photos_row1_1_text .welcome {
+    text-align: left;
     color: white;
-    font-size: 2.5rem; 
-    font-family: Montserrat ;
+    font-size: 2.5rem;
+    font-family: Montserrat;
   }
-  .photos_row1_1_text .clubname{
-    text-align:left;
-    color: #ECB440;
+
+  .photos_row1_1_text .clubname {
+    text-align: left;
+    color: #ecb440;
     font-size: 3rem;
   }
+
   .photos_row1_1_circlelogo {
     position: absolute;
     top: 13%;
@@ -2305,38 +2336,39 @@ code {
   .photos_row2_2 {
     height: 100%;
     width: 32%;
-    background-color: #ECB440;
+    background-color: #ecb440;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .photos_row2_2 p{
+  .photos_row2_2 p {
     font-family: Montserrat;
     color: #fff;
     font-size: 2.5rem;
   }
+
   .photos_row2_3 {
     height: 100%;
     width: 32%;
-    background-color: #FAE3B5;
+    background-color: #fae3b5;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .photos_row2_3 p{
+  .photos_row2_3 p {
     font-family: Montserrat;
     font-size: 2.5rem;
-    color: #ECB440;
+    color: #ecb440;
   }
 
   /* About */
   .about_heading {
     height: 35%;
     width: 100%;
-    background-color: #1C1C1C;
-    border-top: 0.05rem solid #DEDBDB;
+    background-color: #1c1c1c;
+    border-top: 0.05rem solid #dedbdb;
     position: relative;
     display: flex;
     justify-content: center;
@@ -2349,7 +2381,7 @@ code {
     color: #ffffff;
     font-size: 2.5rem;
     font-style: italic;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
   }
 
   .about_photos {
@@ -2367,23 +2399,23 @@ code {
   }
 
   .block1 {
-    background-color: #FAE3B5;
+    background-color: #fae3b5;
   }
 
   .block2 {
-    background-color: #ECB440;
+    background-color: #ecb440;
   }
 
   .block1 div {
-    color: #ECB440;
-    font-family: 'Montserrat';
+    color: #ecb440;
+    font-family: "Montserrat";
     font-size: 2rem;
     text-align: left;
   }
 
   .block2 div {
-    color: #FAE3B5;
-    font-family: 'Montserrat';
+    color: #fae3b5;
+    font-family: "Montserrat";
     font-size: 2rem;
     text-align: left;
   }
@@ -2392,8 +2424,22 @@ code {
     height: 100%;
     width: 33.3%;
     background-color: #eee;
-    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
-      linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-image: linear-gradient(
+        45deg,
+        black 25%,
+        transparent 25%,
+        transparent 75%,
+        black 75%,
+        black
+      ),
+      linear-gradient(
+        45deg,
+        black 25%,
+        transparent 25%,
+        transparent 75%,
+        black 75%,
+        black
+      );
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
   }
@@ -2401,7 +2447,7 @@ code {
   .whatwedo {
     height: 100%;
     width: 100%;
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
     margin: 2rem;
   }
 
@@ -2409,7 +2455,7 @@ code {
     height: 10%;
     color: var(--theme);
     font-size: 1.2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -2451,14 +2497,14 @@ code {
     height: 100%;
     width: 85%;
     font-size: 2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     color: var(--title);
   }
 
   .sentences {
     display: flex;
     align-items: baseline;
-    height: '20%';
+    height: "20%";
   }
 
   .whatwedo-block2 {
@@ -2468,7 +2514,6 @@ code {
     justify-content: space-between;
     margin: auto;
     padding-bottom: 5%;
-
   }
 
   .whatwedo-block2-text {
@@ -2479,7 +2524,7 @@ code {
 
   .whatwedo-block2-text-large {
     height: 65%;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 2rem;
     color: var(--title);
     margin-bottom: 2rem;
@@ -2488,7 +2533,7 @@ code {
   .whatwedo-block2-text-small {
     height: 35%;
     width: 50%;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 1.25rem;
     color: var(--title);
     text-align: left;
@@ -2502,7 +2547,7 @@ code {
   }
 
   .highlight {
-    font-family: 'Equinox';
+    font-family: "Equinox";
     font-size: 3rem;
     color: var(--theme);
   }
@@ -2528,7 +2573,7 @@ code {
     height: 20%;
     color: var(--title);
     font-size: 2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     position: relative;
   }
 
@@ -2554,7 +2599,11 @@ code {
     background-size: fill;
     background-repeat: no-repeat;
     position: relative;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 33.82%, rgba(0, 0, 0, 0.74) 100%);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 33.82%,
+      rgba(0, 0, 0, 0.74) 100%
+    );
   }
 
   .founder-name {
@@ -2577,7 +2626,6 @@ code {
   }
 
   .Hero {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2610,7 +2658,7 @@ code {
     margin-left: -20%;
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--theme)
+    color: var(--theme);
   }
 
   .Main-1 .grad {
@@ -2624,7 +2672,7 @@ code {
     display: flex;
   }
 
-  .Main-2>div {
+  .Main-2 > div {
     width: 20%;
     height: 100%;
     background-color: var(--theme);
@@ -2660,7 +2708,7 @@ code {
     margin-bottom: 3rem;
   }
 
-  .card-group>div {
+  .card-group > div {
     display: flex;
     flex-wrap: wrap;
   }
@@ -2672,7 +2720,6 @@ code {
   }
 
   .card {
-
     width: 13rem !important;
     height: 13rem !important;
     border-radius: 8px;
@@ -2742,7 +2789,6 @@ code {
     margin-top: 10%;
   }
 
-
   .footer-container .right img {
     width: 50%;
   }
@@ -2752,7 +2798,6 @@ code {
     background-color: var(--background);
     color: var(--primary);
     text-align: center;
-
   }
 
   /* Photo Gallery */
@@ -2787,17 +2832,17 @@ code {
     width: 80%;
   }
 
-  .gallery-container>div {
+  .gallery-container > div {
     color: var(--primary);
     display: flex;
     align-items: center;
   }
 
-  .gallery-container>div>h3 {
+  .gallery-container > div > h3 {
     font-size: 1.5rem;
   }
 
-  .gallery-container>div>.line {
+  .gallery-container > div > .line {
     background-color: var(--primary);
     height: 0.1em;
     width: 10em;
@@ -2813,14 +2858,13 @@ code {
 
   .gallery-container .container .row-main {
     display: flex;
-    gap: 0.3351206434316354vw
+    gap: 0.3351206434316354vw;
   }
 
   .gallery-container .container .row-main .column-main {
     display: flex;
     flex-direction: column;
     gap: 0.3351206434316354vw;
-
   }
 
   .gallery-container .container .row-main .column-main .big-main {
@@ -2831,13 +2875,13 @@ code {
     align-items: center;
   }
 
-  .gallery-container .container .row-main .column-main .big-main>img {
+  .gallery-container .container .row-main .column-main .big-main > img {
     width: inherit;
   }
 
   .gallery-container .container .row-main .column-main .row {
     display: flex;
-    gap: 0.3351206434316354vw
+    gap: 0.3351206434316354vw;
   }
 
   .gallery-container .container .row-main .column-main .row .big {
@@ -2848,7 +2892,7 @@ code {
     align-items: center;
   }
 
-  .gallery-container .container .row-main .column-main .row .big>img {
+  .gallery-container .container .row-main .column-main .row .big > img {
     width: inherit;
   }
 
@@ -2856,13 +2900,11 @@ code {
     background-color: pink;
     width: 13.404825737265416vw;
     height: 23.130193905817176vh;
-
   }
 
-  .gallery-container .container .row-main .column-main .row .small>img {
+  .gallery-container .container .row-main .column-main .row .small > img {
     width: inherit;
   }
-
 }
 
 /* 
@@ -2871,7 +2913,6 @@ code {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
   /* CSS */
   .nav {
     margin: 1.5% auto;
@@ -2937,14 +2978,13 @@ code {
     color: var(--primary);
   }
 
-
   /* Home Page */
 
   .photos {
     height: 85%;
     width: 100%;
-    background-color: #DEDBDB;
-    border-top: 0.05rem solid #DEDBDB;
+    background-color: #dedbdb;
+    border-top: 0.05rem solid #dedbdb;
   }
 
   .photos_row1 {
@@ -2956,7 +2996,7 @@ code {
   .photos_row1_1 {
     height: 100%;
     width: 60%;
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2971,19 +3011,20 @@ code {
 
   .photos_row1_1_text {
     background-color: transparent;
-    font-family: 'Equinox';
+    font-family: "Equinox";
     position: relative;
   }
 
-  .photos_row1_1_text .welcome{
-    text-align:left;
+  .photos_row1_1_text .welcome {
+    text-align: left;
     color: white;
-    font-size: 2.5rem; 
-    font-family: Montserrat ;
+    font-size: 2.5rem;
+    font-family: Montserrat;
   }
-  .photos_row1_1_text .clubname{
-    text-align:left;
-    color: #ECB440;
+
+  .photos_row1_1_text .clubname {
+    text-align: left;
+    color: #ecb440;
     font-size: 3rem;
   }
 
@@ -3015,38 +3056,39 @@ code {
   .photos_row2_2 {
     height: 100%;
     width: 32%;
-    background-color: #ECB440;
+    background-color: #ecb440;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .photos_row2_2 p{
+  .photos_row2_2 p {
     font-family: Montserrat;
     color: #fff;
     font-size: 2rem;
   }
+
   .photos_row2_3 {
     height: 100%;
     width: 32%;
-    background-color: #FAE3B5;
+    background-color: #fae3b5;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .photos_row2_3 p{
+  .photos_row2_3 p {
     font-family: Montserrat;
     font-size: 2rem;
-    color: #ECB440;
+    color: #ecb440;
   }
 
   /* About */
   .about_heading {
     height: 35%;
     width: 100%;
-    background-color: #1C1C1C;
-    border-top: 0.05rem solid #DEDBDB;
+    background-color: #1c1c1c;
+    border-top: 0.05rem solid #dedbdb;
     position: relative;
     display: flex;
     justify-content: center;
@@ -3059,7 +3101,7 @@ code {
     color: #ffffff;
     font-size: 2.5rem;
     font-style: italic;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
   }
 
   .about_photos {
@@ -3077,23 +3119,23 @@ code {
   }
 
   .block1 {
-    background-color: #FAE3B5;
+    background-color: #fae3b5;
   }
 
   .block2 {
-    background-color: #ECB440;
+    background-color: #ecb440;
   }
 
   .block1 div {
-    color: #ECB440;
-    font-family: 'Montserrat';
+    color: #ecb440;
+    font-family: "Montserrat";
     font-size: 2rem;
     text-align: left;
   }
 
   .block2 div {
-    color: #FAE3B5;
-    font-family: 'Montserrat';
+    color: #fae3b5;
+    font-family: "Montserrat";
     font-size: 2rem;
     text-align: left;
   }
@@ -3102,8 +3144,22 @@ code {
     height: 100%;
     width: 33.3%;
     background-color: #eee;
-    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
-      linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-image: linear-gradient(
+        45deg,
+        black 25%,
+        transparent 25%,
+        transparent 75%,
+        black 75%,
+        black
+      ),
+      linear-gradient(
+        45deg,
+        black 25%,
+        transparent 25%,
+        transparent 75%,
+        black 75%,
+        black
+      );
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
   }
@@ -3111,7 +3167,7 @@ code {
   .whatwedo {
     height: 100%;
     width: 100%;
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
     margin: 2rem;
   }
 
@@ -3119,7 +3175,7 @@ code {
     height: 10%;
     color: var(--theme);
     font-size: 1.2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -3161,14 +3217,14 @@ code {
     height: 100%;
     width: 85%;
     font-size: 2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     color: var(--title);
   }
 
   .sentences {
     display: flex;
     align-items: baseline;
-    height: '20%';
+    height: "20%";
   }
 
   .whatwedo-block2 {
@@ -3178,7 +3234,6 @@ code {
     justify-content: space-between;
     margin: auto;
     padding-bottom: 5%;
-
   }
 
   .whatwedo-block2-text {
@@ -3189,7 +3244,7 @@ code {
 
   .whatwedo-block2-text-large {
     height: 65%;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 2rem;
     color: var(--title);
     margin-bottom: 2rem;
@@ -3198,7 +3253,7 @@ code {
   .whatwedo-block2-text-small {
     height: 35%;
     width: 50%;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 1.25rem;
     color: var(--title);
     text-align: left;
@@ -3212,7 +3267,7 @@ code {
   }
 
   .highlight {
-    font-family: 'Equinox';
+    font-family: "Equinox";
     font-size: 3rem;
     color: var(--theme);
   }
@@ -3238,7 +3293,7 @@ code {
     height: 20%;
     color: var(--title);
     font-size: 2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     position: relative;
   }
 
@@ -3264,7 +3319,11 @@ code {
     background-size: fill;
     background-repeat: no-repeat;
     position: relative;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 33.82%, rgba(0, 0, 0, 0.74) 100%);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 33.82%,
+      rgba(0, 0, 0, 0.74) 100%
+    );
   }
 
   .founder-name {
@@ -3287,7 +3346,6 @@ code {
   }
 
   .Hero {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3320,7 +3378,7 @@ code {
     margin-left: -20%;
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--theme)
+    color: var(--theme);
   }
 
   .Main-1 .grad {
@@ -3334,7 +3392,7 @@ code {
     display: flex;
   }
 
-  .Main-2>div {
+  .Main-2 > div {
     width: 20%;
     height: 100%;
     background-color: var(--theme);
@@ -3370,7 +3428,7 @@ code {
     margin-bottom: 3rem;
   }
 
-  .card-group>div {
+  .card-group > div {
     display: flex;
     flex-wrap: wrap;
   }
@@ -3382,7 +3440,6 @@ code {
   }
 
   .card {
-
     width: 13rem !important;
     height: 13rem !important;
     border-radius: 8px;
@@ -3453,7 +3510,6 @@ code {
     margin-top: 10%;
   }
 
-
   .footer-container .right img {
     width: 50%;
   }
@@ -3463,7 +3519,6 @@ code {
     background-color: var(--background);
     color: var(--primary);
     text-align: center;
-
   }
 
   /* Photo Gallery */
@@ -3498,17 +3553,17 @@ code {
     width: 80%;
   }
 
-  .gallery-container>div {
+  .gallery-container > div {
     color: var(--primary);
     display: flex;
     align-items: center;
   }
 
-  .gallery-container>div>h3 {
+  .gallery-container > div > h3 {
     font-size: 1.5rem;
   }
 
-  .gallery-container>div>.line {
+  .gallery-container > div > .line {
     background-color: var(--primary);
     height: 0.1em;
     width: 10em;
@@ -3524,14 +3579,13 @@ code {
 
   .gallery-container .container .row-main {
     display: flex;
-    gap: 0.3351206434316354vw
+    gap: 0.3351206434316354vw;
   }
 
   .gallery-container .container .row-main .column-main {
     display: flex;
     flex-direction: column;
     gap: 0.3351206434316354vw;
-
   }
 
   .gallery-container .container .row-main .column-main .big-main {
@@ -3542,13 +3596,13 @@ code {
     align-items: center;
   }
 
-  .gallery-container .container .row-main .column-main .big-main>img {
+  .gallery-container .container .row-main .column-main .big-main > img {
     width: inherit;
   }
 
   .gallery-container .container .row-main .column-main .row {
     display: flex;
-    gap: 0.3351206434316354vw
+    gap: 0.3351206434316354vw;
   }
 
   .gallery-container .container .row-main .column-main .row .big {
@@ -3559,7 +3613,7 @@ code {
     align-items: center;
   }
 
-  .gallery-container .container .row-main .column-main .row .big>img {
+  .gallery-container .container .row-main .column-main .row .big > img {
     width: inherit;
   }
 
@@ -3567,14 +3621,11 @@ code {
     background-color: pink;
     width: 13.404825737265416vw;
     height: 23.130193905817176vh;
-
   }
 
-  .gallery-container .container .row-main .column-main .row .small>img {
+  .gallery-container .container .row-main .column-main .row .small > img {
     width: inherit;
   }
-
-
 }
 
 /* 
@@ -3583,7 +3634,6 @@ code {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-
   /* CSS */
   .nav {
     margin: 1.5% auto;
@@ -3602,22 +3652,71 @@ code {
     border-radius: 3em;
     font-size: 12px;
   }
+  /* nav for mobile */
+  .nav-button-mobile {
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    z-index: 11;
+  }
+
+  .full-screen-nav {
+    background-color: black;
+    width: 100vw;
+    overflow: hidden;
+    height: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbox-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
 
   .link {
     color: var(--primary);
-    text-decoration: none;
-    padding: 0.3rem 0.3rem;
-    border-radius: 0.2rem;
-    font-size: 0.5rem;
+    font-size: 18px;
+    transition: all 0.3s ease;
   }
 
   .link:hover {
-    background-color: var(--light-theme);
-    color: var(--theme);
+    color: var(--light-theme);
+    background-color: unset;
+  }
+  .active {
+    position: relative;
+  }
+  .navbox-mobile .active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: var(--theme);
+  }
+
+  .NavSocials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 100px;
   }
 
   .logo {
-    width: 17%;
+    height: 45px;
+    width: auto;
   }
 
   .icon {
@@ -3625,23 +3724,16 @@ code {
     font-size: 18px;
   }
 
-  .NavSocials {
-    width: 20%;
-    display: flex;
-    justify-content: space-between;
-  }
-
   .NavSocials a {
     text-decoration: none;
   }
-
 
   .social {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 27px;
-    height: 27px;
+    width: 30px;
+    height: 30px;
     border-radius: 30px;
     background-color: var(--theme);
   }
@@ -3651,14 +3743,13 @@ code {
     color: var(--primary);
   }
 
-
   /* Home Page */
 
   .photos {
     height: 70%;
     width: 100%;
-    background-color: #DEDBDB;
-    border-top: 0.05rem solid #DEDBDB;
+    background-color: #dedbdb;
+    border-top: 0.05rem solid #dedbdb;
   }
 
   .photos_row1 {
@@ -3670,7 +3761,7 @@ code {
   .photos_row1_1 {
     height: 100%;
     width: 60%;
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3685,19 +3776,20 @@ code {
 
   .photos_row1_1_text {
     background-color: transparent;
-    font-family: 'Equinox';
+    font-family: "Equinox";
     position: relative;
   }
 
-  .photos_row1_1_text .welcome{
-    text-align:left;
+  .photos_row1_1_text .welcome {
+    text-align: left;
     color: white;
-    font-size: 1rem; 
-    font-family: Montserrat ;
+    font-size: 1rem;
+    font-family: Montserrat;
   }
-  .photos_row1_1_text .clubname{
-    text-align:left;
-    color: #ECB440;
+
+  .photos_row1_1_text .clubname {
+    text-align: left;
+    color: #ecb440;
     font-size: 2rem;
   }
 
@@ -3729,38 +3821,39 @@ code {
   .photos_row2_2 {
     height: 100%;
     width: 32%;
-    background-color: #ECB440;
+    background-color: #ecb440;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .photos_row2_2 p{
+  .photos_row2_2 p {
     font-family: Montserrat;
     color: #fff;
     font-size: 1.5rem;
   }
+
   .photos_row2_3 {
     height: 100%;
     width: 32%;
-    background-color: #FAE3B5;
+    background-color: #fae3b5;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .photos_row2_3 p{
+  .photos_row2_3 p {
     font-family: Montserrat;
     font-size: 1.5rem;
-    color: #ECB440;
+    color: #ecb440;
   }
 
   /* About */
   .about_heading {
     height: 35%;
     width: 100%;
-    background-color: #1C1C1C;
-    border-top: 0.05rem solid #DEDBDB;
+    background-color: #1c1c1c;
+    border-top: 0.05rem solid #dedbdb;
     position: relative;
     display: flex;
     justify-content: center;
@@ -3773,7 +3866,7 @@ code {
     color: #ffffff;
     font-size: 2.5rem;
     font-style: italic;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
   }
 
   .about_photos {
@@ -3791,23 +3884,23 @@ code {
   }
 
   .block1 {
-    background-color: #FAE3B5;
+    background-color: #fae3b5;
   }
 
   .block2 {
-    background-color: #ECB440;
+    background-color: #ecb440;
   }
 
   .block1 div {
-    color: #ECB440;
-    font-family: 'Montserrat';
+    color: #ecb440;
+    font-family: "Montserrat";
     font-size: 2rem;
     text-align: left;
   }
 
   .block2 div {
-    color: #FAE3B5;
-    font-family: 'Montserrat';
+    color: #fae3b5;
+    font-family: "Montserrat";
     font-size: 2rem;
     text-align: left;
   }
@@ -3816,8 +3909,22 @@ code {
     height: 100%;
     width: 33.3%;
     background-color: #eee;
-    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
-      linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-image: linear-gradient(
+        45deg,
+        black 25%,
+        transparent 25%,
+        transparent 75%,
+        black 75%,
+        black
+      ),
+      linear-gradient(
+        45deg,
+        black 25%,
+        transparent 25%,
+        transparent 75%,
+        black 75%,
+        black
+      );
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
   }
@@ -3825,7 +3932,7 @@ code {
   .whatwedo {
     height: 100%;
     width: 100%;
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
     margin: 2rem;
   }
 
@@ -3833,7 +3940,7 @@ code {
     height: 10%;
     color: var(--theme);
     font-size: 1.2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -3875,14 +3982,14 @@ code {
     height: 100%;
     width: 85%;
     font-size: 2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     color: var(--title);
   }
 
   .sentences {
     display: flex;
     align-items: baseline;
-    height: '20%';
+    height: "20%";
   }
 
   .whatwedo-block2 {
@@ -3892,7 +3999,6 @@ code {
     justify-content: space-between;
     margin: auto;
     padding-bottom: 5%;
-
   }
 
   .whatwedo-block2-text {
@@ -3903,7 +4009,7 @@ code {
 
   .whatwedo-block2-text-large {
     height: 65%;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 2rem;
     color: var(--title);
     margin-bottom: 2rem;
@@ -3912,7 +4018,7 @@ code {
   .whatwedo-block2-text-small {
     height: 35%;
     width: 50%;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 1.25rem;
     color: var(--title);
     text-align: left;
@@ -3926,7 +4032,7 @@ code {
   }
 
   .highlight {
-    font-family: 'Equinox';
+    font-family: "Equinox";
     font-size: 3rem;
     color: var(--theme);
   }
@@ -3952,7 +4058,7 @@ code {
     height: 20%;
     color: var(--title);
     font-size: 2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     position: relative;
   }
 
@@ -3978,7 +4084,11 @@ code {
     background-size: fill;
     background-repeat: no-repeat;
     position: relative;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 33.82%, rgba(0, 0, 0, 0.74) 100%);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 33.82%,
+      rgba(0, 0, 0, 0.74) 100%
+    );
   }
 
   .founder-name {
@@ -4001,7 +4111,6 @@ code {
   }
 
   .Hero {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4034,7 +4143,7 @@ code {
     margin-left: -20%;
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--theme)
+    color: var(--theme);
   }
 
   .Main-1 .grad {
@@ -4048,7 +4157,7 @@ code {
     display: flex;
   }
 
-  .Main-2>div {
+  .Main-2 > div {
     width: 20%;
     height: 100%;
     background-color: var(--theme);
@@ -4084,7 +4193,7 @@ code {
     margin-bottom: 3rem;
   }
 
-  .card-group>div {
+  .card-group > div {
     display: flex;
     flex-wrap: wrap;
   }
@@ -4096,7 +4205,6 @@ code {
   }
 
   .card {
-
     width: 13rem !important;
     height: 13rem !important;
     border-radius: 8px;
@@ -4167,7 +4275,6 @@ code {
     margin-top: 10%;
   }
 
-
   .footer-container .right img {
     width: 40%;
   }
@@ -4177,7 +4284,6 @@ code {
     background-color: var(--background);
     color: var(--primary);
     text-align: center;
-
   }
 
   /* Photo Gallery */
@@ -4212,17 +4318,17 @@ code {
     width: 80%;
   }
 
-  .gallery-container>div {
+  .gallery-container > div {
     color: var(--primary);
     display: flex;
     align-items: center;
   }
 
-  .gallery-container>div>h3 {
+  .gallery-container > div > h3 {
     font-size: 1.5rem;
   }
 
-  .gallery-container>div>.line {
+  .gallery-container > div > .line {
     background-color: var(--primary);
     height: 0.1em;
     width: 10em;
@@ -4238,14 +4344,13 @@ code {
 
   .gallery-container .container .row-main {
     display: flex;
-    gap: 0.3351206434316354vw
+    gap: 0.3351206434316354vw;
   }
 
   .gallery-container .container .row-main .column-main {
     display: flex;
     flex-direction: column;
     gap: 0.3351206434316354vw;
-
   }
 
   .gallery-container .container .row-main .column-main .big-main {
@@ -4256,13 +4361,13 @@ code {
     align-items: center;
   }
 
-  .gallery-container .container .row-main .column-main .big-main>img {
+  .gallery-container .container .row-main .column-main .big-main > img {
     width: inherit;
   }
 
   .gallery-container .container .row-main .column-main .row {
     display: flex;
-    gap: 0.3351206434316354vw
+    gap: 0.3351206434316354vw;
   }
 
   .gallery-container .container .row-main .column-main .row .big {
@@ -4273,7 +4378,7 @@ code {
     align-items: center;
   }
 
-  .gallery-container .container .row-main .column-main .row .big>img {
+  .gallery-container .container .row-main .column-main .row .big > img {
     width: inherit;
   }
 
@@ -4281,25 +4386,19 @@ code {
     background-color: pink;
     width: 13.404825737265416vw;
     height: 23.130193905817176vh;
-
   }
 
-  .gallery-container .container .row-main .column-main .row .small>img {
+  .gallery-container .container .row-main .column-main .row .small > img {
     width: inherit;
   }
-
-
 }
-
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
-
 @media (min-width: 320px) and (max-width: 480px) {
-
   /* CSS */
 
   .nav {
@@ -4366,14 +4465,13 @@ code {
     color: var(--primary);
   }
 
-
   /* Home Page */
 
   .photos {
     height: 70%;
     width: 100%;
-    background-color: #DEDBDB;
-    border-top: 0.05rem solid #DEDBDB;
+    background-color: #dedbdb;
+    border-top: 0.05rem solid #dedbdb;
   }
 
   .photos_row1 {
@@ -4385,7 +4483,7 @@ code {
   .photos_row1_1 {
     height: 100%;
     width: 60%;
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -4400,19 +4498,20 @@ code {
 
   .photos_row1_1_text {
     background-color: transparent;
-    font-family: 'Equinox';
+    font-family: "Equinox";
     position: relative;
   }
 
-  .photos_row1_1_text .welcome{
-    text-align:left;
+  .photos_row1_1_text .welcome {
+    text-align: left;
     color: white;
-    font-size: 1rem; 
-    font-family: Montserrat ;
+    font-size: 1rem;
+    font-family: Montserrat;
   }
-  .photos_row1_1_text .clubname{
-    text-align:left;
-    color: #ECB440;
+
+  .photos_row1_1_text .clubname {
+    text-align: left;
+    color: #ecb440;
     font-size: 2rem;
   }
 
@@ -4444,38 +4543,39 @@ code {
   .photos_row2_2 {
     height: 100%;
     width: 32%;
-    background-color: #ECB440;
+    background-color: #ecb440;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .photos_row2_2 p{
+  .photos_row2_2 p {
     font-family: Montserrat;
     color: #fff;
     font-size: 1rem;
   }
+
   .photos_row2_3 {
     height: 100%;
     width: 32%;
-    background-color: #FAE3B5;
+    background-color: #fae3b5;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .photos_row2_3 p{
+  .photos_row2_3 p {
     font-family: Montserrat;
     font-size: 1rem;
-    color: #ECB440;
+    color: #ecb440;
   }
 
   /* About */
   .about_heading {
     height: 35%;
     width: 100%;
-    background-color: #1C1C1C;
-    border-top: 0.05rem solid #DEDBDB;
+    background-color: #1c1c1c;
+    border-top: 0.05rem solid #dedbdb;
     position: relative;
     display: flex;
     justify-content: center;
@@ -4488,7 +4588,7 @@ code {
     color: #ffffff;
     font-size: 2.5rem;
     font-style: italic;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
   }
 
   .about_photos {
@@ -4506,23 +4606,23 @@ code {
   }
 
   .block1 {
-    background-color: #FAE3B5;
+    background-color: #fae3b5;
   }
 
   .block2 {
-    background-color: #ECB440;
+    background-color: #ecb440;
   }
 
   .block1 div {
-    color: #ECB440;
-    font-family: 'Montserrat';
+    color: #ecb440;
+    font-family: "Montserrat";
     font-size: 2rem;
     text-align: left;
   }
 
   .block2 div {
-    color: #FAE3B5;
-    font-family: 'Montserrat';
+    color: #fae3b5;
+    font-family: "Montserrat";
     font-size: 2rem;
     text-align: left;
   }
@@ -4531,8 +4631,22 @@ code {
     height: 100%;
     width: 33.3%;
     background-color: #eee;
-    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
-      linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-image: linear-gradient(
+        45deg,
+        black 25%,
+        transparent 25%,
+        transparent 75%,
+        black 75%,
+        black
+      ),
+      linear-gradient(
+        45deg,
+        black 25%,
+        transparent 25%,
+        transparent 75%,
+        black 75%,
+        black
+      );
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
   }
@@ -4540,7 +4654,7 @@ code {
   .whatwedo {
     height: 100%;
     width: 100%;
-    background-color: #1C1C1C;
+    background-color: #1c1c1c;
     margin: 2rem;
   }
 
@@ -4548,7 +4662,7 @@ code {
     height: 10%;
     color: var(--theme);
     font-size: 1.2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -4590,14 +4704,14 @@ code {
     height: 100%;
     width: 85%;
     font-size: 2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     color: var(--title);
   }
 
   .sentences {
     display: flex;
     align-items: baseline;
-    height: '20%';
+    height: "20%";
   }
 
   .whatwedo-block2 {
@@ -4607,7 +4721,6 @@ code {
     justify-content: space-between;
     margin: auto;
     padding-bottom: 5%;
-
   }
 
   .whatwedo-block2-text {
@@ -4618,7 +4731,7 @@ code {
 
   .whatwedo-block2-text-large {
     height: 65%;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 2rem;
     color: var(--title);
     margin-bottom: 2rem;
@@ -4627,7 +4740,7 @@ code {
   .whatwedo-block2-text-small {
     height: 35%;
     width: 50%;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 1.25rem;
     color: var(--title);
     text-align: left;
@@ -4641,7 +4754,7 @@ code {
   }
 
   .highlight {
-    font-family: 'Equinox';
+    font-family: "Equinox";
     font-size: 3rem;
     color: var(--theme);
   }
@@ -4667,7 +4780,7 @@ code {
     height: 20%;
     color: var(--title);
     font-size: 2rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     position: relative;
   }
 
@@ -4693,7 +4806,11 @@ code {
     background-size: fill;
     background-repeat: no-repeat;
     position: relative;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 33.82%, rgba(0, 0, 0, 0.74) 100%);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 33.82%,
+      rgba(0, 0, 0, 0.74) 100%
+    );
   }
 
   .founder-name {
@@ -4717,7 +4834,6 @@ code {
   }
 
   .Hero {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4750,7 +4866,7 @@ code {
     margin-left: -20%;
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--theme)
+    color: var(--theme);
   }
 
   .Main-1 .grad {
@@ -4764,8 +4880,8 @@ code {
     display: flex;
   }
 
-  .Main-2>div {
-    width: 0%;
+  .Main-2 > div {
+    width: 20%;
     height: 100%;
     background-color: var(--theme);
   }
@@ -4802,7 +4918,8 @@ code {
     margin-bottom: 0.5rem;
   }
 
-  .inner-card-group {
+  .card-group>div {
+    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -4817,10 +4934,9 @@ code {
   }
 
   .card {
-    margin: 0!important;
-    width: 8rem !important; 
-    height:  8rem!important;
-    border-radius: 4px;
+    width: 13rem !important;
+    height: 13rem !important;
+    border-radius: 8px;
   }
 
   .cardFront {
@@ -4898,7 +5014,6 @@ code {
     background-color: var(--background);
     color: var(--primary);
     text-align: center;
-    font-size: 0.4rem;
   }
 
   /* Photo Gallery */
@@ -4933,17 +5048,17 @@ code {
     width: 80%;
   }
 
-  .gallery-container>div {
+  .gallery-container > div {
     color: var(--primary);
     display: flex;
     align-items: center;
   }
 
-  .gallery-container>div>h3 {
+  .gallery-container > div > h3 {
     font-size: 1.5rem;
   }
 
-  .gallery-container>div>.line {
+  .gallery-container > div > .line {
     background-color: var(--primary);
     height: 0.1em;
     width: 10em;
@@ -4959,14 +5074,13 @@ code {
 
   .gallery-container .container .row-main {
     display: flex;
-    gap: 0.3351206434316354vw
+    gap: 0.3351206434316354vw;
   }
 
   .gallery-container .container .row-main .column-main {
     display: flex;
     flex-direction: column;
     gap: 0.3351206434316354vw;
-
   }
 
   .gallery-container .container .row-main .column-main .big-main {
@@ -4977,13 +5091,13 @@ code {
     align-items: center;
   }
 
-  .gallery-container .container .row-main .column-main .big-main>img {
+  .gallery-container .container .row-main .column-main .big-main > img {
     width: inherit;
   }
 
   .gallery-container .container .row-main .column-main .row {
     display: flex;
-    gap: 0.3351206434316354vw
+    gap: 0.3351206434316354vw;
   }
 
   .gallery-container .container .row-main .column-main .row .big {
@@ -4994,7 +5108,7 @@ code {
     align-items: center;
   }
 
-  .gallery-container .container .row-main .column-main .row .big>img {
+  .gallery-container .container .row-main .column-main .row .big > img {
     width: inherit;
   }
 
@@ -5002,11 +5116,9 @@ code {
     background-color: pink;
     width: 13.404825737265416vw;
     height: 23.130193905817176vh;
-
   }
 
-  .gallery-container .container .row-main .column-main .row .small>img {
+  .gallery-container .container .row-main .column-main .row .small > img {
     width: inherit;
   }
-
 }
