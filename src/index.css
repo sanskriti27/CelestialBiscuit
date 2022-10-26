@@ -118,7 +118,8 @@ code {
 
   .navbox .active {
     background-color: var(--theme);
-    color: var(--primary);
+    color: var(--title);
+    font-weight: 900;
   }
 
   /* Home Page */
@@ -860,7 +861,8 @@ code {
 
   .navbox .active {
     background-color: var(--theme);
-    color: var(--primary);
+    color: var(--title);
+    font-weight: 900;
   }
 
   /* Home Page */
@@ -1602,7 +1604,8 @@ code {
 
   .navbox .active {
     background-color: var(--theme);
-    color: var(--primary);
+    color: var(--title);
+    font-weight: 900;
   }
 
   /* Home Page */
@@ -2320,11 +2323,17 @@ code {
     align-items: center;
     justify-content: center;
   }
+
   .navbox-mobile {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: var(--theme);
   }
 
   .link {
