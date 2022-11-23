@@ -713,8 +713,10 @@ code {
 
   .gallery-container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center !important ;
+    align-items: center !important;
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
     width: 80%;
   }
 
@@ -2193,8 +2195,10 @@ code {
 
   .gallery-container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column;
+    align-items: flex-start; */
     width: 80%;
   }
 
@@ -3820,8 +3824,10 @@ code {
 
   .gallery-container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center ;
+    /* flex-direction: column;
+    align-items: flex-start; */
     width: 80%;
   }
 
