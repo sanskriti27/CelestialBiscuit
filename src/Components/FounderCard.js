@@ -1,10 +1,9 @@
 import React from "react";
-import Pooja from "../assets/pooja.png";
 
 export default function FounderCard(props) {
   return (
     <div
-      style={{ backgroundImage: `url(${Pooja})`, backgroundPosition: "center" }}
+      style={{ backgroundImage: `url(${props.url})`, backgroundPosition: "center",}}
       className="founder-card"
     >
       <div className="founder-name">
