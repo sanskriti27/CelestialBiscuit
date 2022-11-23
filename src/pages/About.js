@@ -23,7 +23,6 @@ function About() {
 
                 </div>
                 <div className="checkerboard">
-
                 </div>
                 <div className="about_photos_1 block1">
                     <div className="about_photos1_text">
