@@ -9,6 +9,7 @@ import {
   Route
 } from "react-router-dom";
 import Nbar from "./Components/Nbar";
+import Subscribe from "./Components/Subscribe";
 
 
 function App() {
@@ -16,14 +17,15 @@ function App() {
     <div className="App"> 
       <Router>
       <Nbar/>
-          <Routes>
+=          <Routes>
             <Route path="/" element={<HomePage/>}/>
             <Route path="project/*" element={<Project/>}/>
             <Route path="about/*" element={<About/>}/>
-            <Route path="gallery/*" element={<Gallery/>}/>
+            <Route path="/" element={<Gallery/>}/>
           </Routes>
 
       </Router>
+      <Subscribe/>
     </div>
   );
 }

@@ -117,15 +117,19 @@ function About() {
                 <Container className='meettheteam-body'>
                     <FounderCard 
                         name='Pooja Gera'
+                        url='https://res.cloudinary.com/dp6tqc0bs/image/upload/v1669188337/2_tzl7qa.png'
                     />
                     <FounderCard 
                         name='Nishtha Goyal'
+                        url=''
                     />
                     <FounderCard 
                         name='Gaurisha R Shrivastava'
+                        url='https://res.cloudinary.com/dp6tqc0bs/image/upload/v1669188335/1_bqgctd.png'
                     />
                     <FounderCard 
                         name='Abhigya Verma'
+                        url='https://res.cloudinary.com/dp6tqc0bs/image/upload/v1669188337/3_vklccx.png'
                     />
                     {/* <div style={{ backgroundImage: `url(${Pooja})` }} className='founder-card'>
                         <div className='founder-name'>

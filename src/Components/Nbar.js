@@ -4,14 +4,17 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "./../assets/Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { NavLink } from "react-bootstrap";
+import { Button, NavLink } from "react-bootstrap";
 import { useLocation } from "react-router";
 import { Drawer, useMediaQuery } from "@mui/material";
+import Subscribe from "./Subscribe";
 
 const Nbar = () => {
   const location = useLocation();
   const matches = useMediaQuery("(max-width:767px)");
   const [open, setOpen] = useState(false);
+  const [modalShow, setModalShow] = useState(false);
+
   return (
     <div>
       <Navbar collapseOnSelect bg="light" expand="lg">
@@ -159,6 +162,18 @@ const Nbar = () => {
                     />
                   </a>
                 </div>
+              </Nav>
+              <Nav>
+              <Button className="subscribe" variant="primary" onClick={() => setModalShow(true)}>
+                  Subscribe
+                </Button>
+
+                <Subscribe
+                  
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+                />
+
               </Nav>
             </>
           )}
