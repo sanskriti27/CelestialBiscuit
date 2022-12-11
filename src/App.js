@@ -17,13 +17,12 @@ function App() {
     <div className="App"> 
       <Router>
       <Nbar/>
-=          <Routes>
+          <Routes>
             <Route path="/" element={<HomePage/>}/>
             <Route path="project/*" element={<Project/>}/>
             <Route path="about/*" element={<About/>}/>
-            <Route path="/" element={<Gallery/>}/>
+            <Route path="gallery/*" element={<Gallery/>}/>
           </Routes>
-
       </Router>
       <Subscribe/>
     </div>

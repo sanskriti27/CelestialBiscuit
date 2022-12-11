@@ -1,11 +1,11 @@
 import React from 'react';
 import Stamp from '../assets/Stamp.png';
 import grad from '../assets/Gradient.png';
-import FounderCard from '../Components/FounderCard';
 import Carousel from '../Components/Carousel';
 import Footer from '../Components/Footer';
 import {Container} from 'react-bootstrap';
-
+import MemberFill from '../Components/MemberFill'
+import { Founders, Retrograde, Nebula, Quasars, Meridians, Martians} from '../data/Member'
 
 function About() {
     return (
@@ -115,42 +115,18 @@ function About() {
                     <p className='team'>TEAM</p>
                 </div>
                 <Container className='meettheteam-body'>
-                    <FounderCard 
-                        name='Pooja Gera'
-                    />
-                    <FounderCard 
-                        name='Nishtha Goyal'
-                    />
-                    <FounderCard 
-                        name='Gaurisha R Shrivastava'
-                    />
-                    <FounderCard 
-                        name='Abhigya Verma'
-                    />
-                    {/* <div style={{ backgroundImage: `url(${Pooja})` }} className='founder-card'>
-                        <div className='founder-name'>
-                            <p style={{ color: '#ECB440', fontFamily: 'Montserrat', marginBottom: '2%' }}><strong>POOJA GERA</strong></p>
-                            <p>FOUNDER</p>
-                        </div>
-                    </div>
-                    <div style={{ backgroundImage: `url(${Pooja})` }} className='founder-card'>
-                        <div className='founder-name'>
-                            <p style={{ color: '#ECB440', fontFamily: 'Montserrat', marginBottom: '2%' }}> <strong>POOJA GERA</strong> </p>
-                            <p>FOUNDER</p>
-                        </div>
-                    </div>
-                    <div style={{ backgroundImage: `url(${Pooja})` }} className='founder-card'>
-                        <div className='founder-name'>
-                            <p style={{ color: '#ECB440', fontFamily: 'Montserrat', marginBottom: '2%' }}><strong>POOJA GERA</strong></p>
-                            <p>FOUNDER</p>
-                        </div>
-                    </div>
-                    <div style={{ backgroundImage: `url(${Pooja})` }} className='founder-card'>
-                        <div className='founder-name'>
-                            <p style={{ color: '#ECB440', fontFamily: 'Montserrat', marginBottom: '2%' }}><strong>POOJA GERA</strong></p>
-                            <p>FOUNDER</p>
-                        </div>
-                    </div> */}
+                    <p className='teamName'>FOUNDERS</p>
+                    <MemberFill title={Founders}/>
+                    <p className='teamName'>Nebula</p>
+                    <MemberFill title={Nebula}/>
+                    <p className='teamName'>Retrograde</p>
+                    <MemberFill title={Retrograde}/>
+                    <p className='teamName'>Quasars</p>
+                    <MemberFill title={Quasars}/>
+                    <p className='teamName'>Meridians</p>
+                    <MemberFill title={Meridians}/>
+                    <p className='teamName'>Martians</p>
+                    <MemberFill title={Martians}/>
                 </Container>
             </div>
             <Footer />
