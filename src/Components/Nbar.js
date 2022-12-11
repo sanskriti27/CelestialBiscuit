@@ -4,16 +4,15 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "./../assets/Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Button, NavLink } from "react-bootstrap";
+import {  NavLink } from "react-bootstrap";
 import { useLocation } from "react-router";
-import { Drawer, useMediaQuery } from "@mui/material";
-import Subscribe from "./Subscribe";
+import {  useMediaQuery } from "@mui/material";
 
 const Nbar = () => {
   const location = useLocation();
   const matches = useMediaQuery("(max-width:767px)");
   const [open, setOpen] = useState(false);
-  const [modalShow, setModalShow] = useState(false);
+  // const [modalShow, setModalShow] = useState(false);
 
   return (
     <div>
