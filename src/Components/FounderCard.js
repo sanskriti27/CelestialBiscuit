@@ -16,7 +16,7 @@ export default function FounderCard(props) {
         >
           <strong>{props.name}</strong>
         </p>
-        <p>FOUNDER</p>
+        <p>{props.title}</p>
       </div>
     </div>
   );
