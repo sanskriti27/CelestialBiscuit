@@ -163,7 +163,7 @@ const Nbar = () => {
                   </a>
                 </div>
               </Nav>
-              <Nav>
+              {/* <Nav>
               <Button className="subscribe" variant="primary" onClick={() => setModalShow(true)}>
                   Subscribe
                 </Button>
@@ -174,7 +174,7 @@ const Nbar = () => {
                   onHide={() => setModalShow(false)}
                 />
 
-              </Nav>
+              </Nav> */}
             </>
           )}
         </Container>
